@@ -1,0 +1,37 @@
+package com.org.simulation.ne;
+
+public enum Command {
+
+	RTRV("RTRV"),
+	ENT("ENT"),
+	ED("ED"),
+	DEL("DEL"),
+	ACTLOGIN("ACT-LOGIN"),
+	RTRVEQPTALL("RTRV-EQPT-ALL"),
+	RTRVPORTFAC("RTRV-PORT-FAC"),
+	RTRVALARMALL("RTRV-ALARM-ALL"),
+	RTRVPORTSALL("RTRV-PORTS-ALL"),
+	RTRVFACILITY("RTRV-FACILITY-OBJ"),
+	RTRVFACILITYALL("RTRV-FACILITY-ALL"),
+	ENTCARD("ENT-CARD"),
+	DLTCARD("DLT-CARD"),
+	DLTFACILITY("DLT-FACILITY"),
+	ENTFACILITY("ENT-FACILITY"),
+	EDCARD("ED-CARD"),
+	EDFACILITY("ED-FACILITY"),
+	RTRVSLOTSALL("RTRV-SLOTS-ALL"),
+	RTRVALL("RTRV-ALL"),
+	PURGEALARM("PURGE-ALARM"),
+	NEINFO("NE-INFO");
+	
+	private String comm;
+	
+	public String getComm() {
+		return comm;
+	}
+	private Command(String command) {
+		this.comm=command;
+	}
+	
+	
+}
