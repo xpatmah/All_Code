@@ -3,16 +3,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>BasicCode</groupId>
+  <artifactId>BasicCode_Basic</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>java.eight</name>
+  <name>BasicCode_Basic</name>
   <url>http://maven.apache.org</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    <maven.compiler.target>1,8</maven.compiler.target>
-    <maven.compiler.source>1.8</maven.compiler.source>
   </properties>
 
   <dependencies>
@@ -23,5 +22,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <artifactId>BasicCode</artifactId>
 </project>
