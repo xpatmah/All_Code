@@ -4,6 +4,7 @@ $ cat .gitignore
 .DS_Store
 .project
 .classpath
+*.DS_Store
 
 # Use wildcards as well
 *~
