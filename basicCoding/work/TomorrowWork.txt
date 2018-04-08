@@ -1,0 +1,37 @@
+5500 CITY
+3300 HDFC
+22000 HDFC EMI
+61500 K SBI 
+
+
+Java interview Question (Serialization , Java 7 ,Cloaning)
+
+Spring Video
+Rest Video 
+Sql Queries
+Spring Batch and Transections 
+
+Week Days
+English - Algo/Collections - Video 
+
+Week End
+English - Multithreading / Sql/ Design Pattern / Java 6,7,8
+
+
+
+
+Office 
+Multithreading /Question  /Dynamic Programming/Revision(DS Ka)
+Collection /Question /Dynamic Programming/Revision(DS Ka)
+Java 8/ Question/Dynamic Programming/Revision(DS Ka)
+Design Pattern / Question/Dynamic Programming/Revision(DS Ka)
+
+
+Technical Video - Java 8 - > 8 videos , Threads 6 Videos
+Design Pattern - UML , Strategy Design Pattern
+Revison - 3 Way Quick Sort Done 
+Extra - Objective 15
+
+
+
+

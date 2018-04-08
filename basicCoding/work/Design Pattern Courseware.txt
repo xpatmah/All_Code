@@ -1,0 +1,37 @@
+Design Pattern 
+
+Strategy Pattern
+Decorator Pattern  #
+Factory Pattern
+Abstract Factory Pattern #
+Observer Pattern #
+Chain of Responsibility Pattern
+Flyweight Pattern #
+Singleton Pattern #
+Facade Pattern #
+
+Proxy Pattern #
+Iterator Pattern #
+Adapter Pattern #
+Template Pattern
+Builder Pattern #
+Prototype Pattern
+Bridge Pattern
+Filter Pattern
+Composite Pattern
+Command Pattern
+Interpreter Pattern
+Mediator Pattern
+Memento Pattern
+State Pattern
+Null Object Pattern
+Visitor Pattern
+MVC Pattern #
+Business Delegate Pattern
+Composite Entity Pattern
+Data Access Object Pattern
+Front Controller Pattern
+Intercepting Filter Pattern
+Service Locator Pattern
+Transfer Object Pattern
+

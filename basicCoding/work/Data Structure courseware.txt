@@ -1,0 +1,75 @@
+Week 1
+Common Topics:- 
+
+Arrays
+Linked List 
+Stack
+Queue 
+Searching (Only Binary search and linear search and most of the search is based on sorting)
+
+Sorting:-
+
+Selection Sort/Bubble Sort/Insertion Sort/
+Merge sort
+Quick Sort/In Place Quick Sort /
+Duel Pivot Quick Sort / 3 Way Partitioning Quick Sort 
+Priority Queue
+Heap Sort
+Tournament Sort(NPTL Lec Case Study I Third Part)
+Bucket Sort
+Counting Sort(it is a counting sort because it works for integer key check geeks for geek and wikipedia link)/LSD Redix Sort
+MSD Redix sort
+Cycle sort
+Shell sort
+Tower of Hanoi
+Tim Sort (Only Concepts)
+
+Week 2
+Trees:- 12
+
+Binary search Tree(Tree Sort - Creating a tree and traversing it in inorder)
+Level Order Traversal/Reverse Level Order Traversal
+Tree Traversal (InOrder,PreOrder and PostOrder with stack and Queue)
+Threaded Binary Tree(one method is to update the pointer while adding and removing the pointer and other is to have the parent pointer)
+Expression Tree 
+AVL Tree 
+Red Black Tree
+#Generic Trees(n Ary tree and the concept the next sibling and first child)
+#M way search Tree
+#B Tree only
+#B+ Trees
+
+
+Week 3
+Graphs(15 Days):- 12
+
+Graph Implementation (Adjacency Metrics &&
+Adjacency Edge List)
+DFS (Adjacency Metrics &&
+Adjacency Edge List)
+BFS (Adjacency Metrics &&
+Adjacency Edge List)
+Disjoint Sets
+Sortest Path Algorithms (Dijkstra Algorithm , 
+Bellman Ford Algorithm, 
+Floyd and Warshell Algorithms) 
+Minimum Spanning Tree (Prims 
+and Kruskal's) --> Disjoint Sets
+Maximum Flow Algorithm (Ford fulkerson algorithm)
+Topological Sort(is a form of DFS and giving the no from the last node and for directed graph only )
+Eulerian path and circuit 
+
+Week 4
+
+Question Based :-
+
+Dynamic Programming(21-31)
+
+Hashing
+String Algos 
+B Tree only
+Multi Dimensional Arrays
+Tim Sort (Only Concepts)
+
+
+

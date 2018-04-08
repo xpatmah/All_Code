@@ -1,0 +1,67 @@
+Daily (3 Prob + 1 Topic (Revision))
+DataStructure, Algorithms and Design ,Distributed Algorithms and Parallel Alogrithms 
+Data Structure and Dynamic Programming Question/J-Unit(4 Lect + how to pass the program argument )(Mandatory)
+Threads/
+Java-8+7+9(35)
+Sql
+Generics & Collections
+Design Pattern+J2EE Pattern(23)
+
+Only Video(10 Lecture)
+Spring(40+batch+transection Management)/
+Spring Boot(40)/
+Web Services(58)/
+JMS(12)/
+Web Socket(6 Videos)
+Hibernate(36)/ ===> 215
+Java Script(90)/ ===> 305
+Python/
+
+Daily 1 out of 3 (10Days )
+30 Objective Java(* inner Class,annotation,Enums,Serialization,Java 7 & 8,File I/O,Cloaning) ,Java-Refection ,Java Regex)
+English (Morning 1 or 2 lectures)
+Maths/
+
+Maths ( Set theory / Sequence and series (including binomial) / Permutation Combination / Probability) 
+Distributed Computing
+Computer Networks
+Operating System
+Cloud Computing
+Data Structute and algorithms
+
+Day 1
+Data Types, Variables,and Arrays
+Operators
+Serialization
+
+Day 2
+Methods and Classes
+Inheritance
+Control Statements
+Garbage Collection
+
+Day 3
+Autoboxing and Annotations (Metadata)
+Enumerations 
+inner Class
+
+Day 4
+More Utility Classes(Java Complete Reference)
+Exception Handling
+File I/O
+
+Day5
+Packages and Interfaces
+Cloaning
+Regular Expressions
+
+Day6
+Input/Output Exploring java.io
+String Handling
+inner Class
+
+Day7
+Regular Expressions
+Java 7 & 8,
+Serialization
+
