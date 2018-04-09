@@ -12,7 +12,7 @@ import hibernate.sql.domain.UserDetails;
  * Hello world!
  *
  */
-public class App 
+public class HibernateApp 
 {
     public static void main( String[] args )
     {
@@ -20,16 +20,16 @@ public class App
         
         details.setId(6);
         details.setName("Hello World");
-        details.setAddress("lkfdnskldgsklg");
-        details.setDescription("dvnsdfjksdf");
+        details.setAddress("Addression "+details.getId());
+        details.setDescription("Description "+details.getId());
         details.setJoiningDate(new Date());
     	
         UserDetails detail = new UserDetails();
         
         detail.setId(7);
         detail.setName("Hello World Again");
-        detail.setAddress("lkfdnskldgsklg");
-        detail.setDescription("dvnsdfjksdf");
+        details.setAddress("Addression "+detail.getId());
+        details.setDescription("Description "+detail.getId());
         detail.setJoiningDate(new Date());
         
         SessionFactory factory = new Configuration().configure().buildSessionFactory();
@@ -41,11 +41,12 @@ public class App
         session.close();
         
         // getting the user object
-        session = factory.openSession();
-        session.beginTransaction();
+         session = factory.openSession();
+         session.beginTransaction();
         UserDetails user  = session.get(UserDetails.class, 6);
         
         System.out.println(user.getAddress());
+        session.close();
         
         factory.close();
         
