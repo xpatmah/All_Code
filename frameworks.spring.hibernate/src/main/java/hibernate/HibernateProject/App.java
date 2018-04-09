@@ -39,7 +39,18 @@ public class App
         session.save(detail);
         session.getTransaction().commit();
         session.close();
+        
+        // getting the user object
+        session = factory.openSession();
+        session.beginTransaction();
+        UserDetails user  = session.get(UserDetails.class, 6);
+        
+        System.out.println(user.getAddress());
+        
         factory.close();
+        
+        
+        
     }
     
 }

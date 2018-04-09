@@ -14,6 +14,9 @@
         <property name="hibernate.dialect">org.hibernate.dialect.PostgreSQLDialect</property>
        
         <property name="hbm2ddl.auto">create</property>
+        
+        <!-- to show the hibernate query only-->
+        <property name="show_sql">true</property>
        
         <property name="hibernate.current_session_context_class">thread</property>
 
