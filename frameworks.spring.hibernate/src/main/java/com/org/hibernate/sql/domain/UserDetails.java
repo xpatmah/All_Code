@@ -72,6 +72,8 @@ public class UserDetails {
 	private String passportNo;
 	
 	@OneToMany
+	@JoinTable(name="VEHICLE_TABLE", joinColumns= {@JoinColumn(name="USER_ID")},
+	inverseJoinColumns= {@JoinColumn(name="VEHICLE_ID")})
 	private Collection<Vehicle> vehicle = new ArrayList<>();
 
 	public Collection<Vehicle> getVehicle() {
