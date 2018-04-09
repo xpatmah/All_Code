@@ -1,4 +1,4 @@
-package com.org.spring.faces;
+package com.org.spring.interfaces;
 
 public interface FortuneService {
 

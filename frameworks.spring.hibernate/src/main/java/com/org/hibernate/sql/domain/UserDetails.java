@@ -1,4 +1,4 @@
-package hibernate.sql.domain;
+package com.org.hibernate.sql.domain;
 
 import java.util.Date;
 

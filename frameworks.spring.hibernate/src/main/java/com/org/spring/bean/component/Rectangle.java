@@ -1,8 +1,8 @@
-package spring.java.testpring.component;
+package com.org.spring.bean.component;
 
 import org.springframework.stereotype.Component;
 
-import com.org.spring.faces.IShape;
+import com.org.spring.interfaces.IShape;
 
 @Component("rectangle")
 public class Rectangle implements IShape {

@@ -1,7 +1,7 @@
-package spring.java.testpring.component;
+package com.org.spring.bean.component;
 
-import com.org.spring.faces.Coach;
-import com.org.spring.faces.FortuneService;
+import com.org.spring.interfaces.Coach;
+import com.org.spring.interfaces.FortuneService;
 
 public class SwimCoach implements Coach {
 

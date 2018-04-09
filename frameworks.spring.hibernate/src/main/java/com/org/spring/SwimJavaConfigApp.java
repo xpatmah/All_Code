@@ -1,10 +1,9 @@
-package spring.java.testpring;
+package com.org.spring;
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.org.component.spring.config.ConfigurationSpring;
-
-import spring.java.testpring.component.SwimCoach;
+import com.org.spring.bean.component.SwimCoach;
+import com.org.spring.bean.java.config.ConfigurationSpring;
 
 public class SwimJavaConfigApp {
 

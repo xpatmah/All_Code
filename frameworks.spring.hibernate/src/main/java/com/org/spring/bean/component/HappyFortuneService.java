@@ -1,8 +1,8 @@
-package spring.java.testpring.component;
+package com.org.spring.bean.component;
 
 import org.springframework.stereotype.Component;
 
-import com.org.spring.faces.FortuneService;
+import com.org.spring.interfaces.FortuneService;
 
 @Component("happyFortuneService")
 public class HappyFortuneService implements FortuneService {

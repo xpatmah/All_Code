@@ -1,14 +1,13 @@
-package com.org.component.spring.config;
+package com.org.spring.bean.java.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
-import com.org.spring.faces.Coach;
-import com.org.spring.faces.FortuneService;
-
-import spring.java.testpring.component.SadFortuneService;
-import spring.java.testpring.component.SwimCoach;
+import com.org.spring.bean.component.SadFortuneService;
+import com.org.spring.bean.component.SwimCoach;
+import com.org.spring.interfaces.Coach;
+import com.org.spring.interfaces.FortuneService;
 
 @Configuration
 //@ComponentScan("spring.java.testpring.component")

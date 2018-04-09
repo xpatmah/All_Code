@@ -1,14 +1,13 @@
-package spring.java.testpring;
+package com.org.spring;
 
 
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.org.component.spring.config.ConfigurationSpring;
-
-import spring.java.testpring.component.DefaultBeanComponent;
-import spring.java.testpring.component.Rectangle;
-import spring.java.testpring.component.TenisCoach;
+import com.org.spring.bean.component.DefaultBeanComponent;
+import com.org.spring.bean.component.Rectangle;
+import com.org.spring.bean.component.TenisCoach;
+import com.org.spring.bean.java.config.ConfigurationSpring;
 
 
 public class App 

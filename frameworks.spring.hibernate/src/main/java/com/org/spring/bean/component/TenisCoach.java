@@ -1,4 +1,4 @@
-package spring.java.testpring.component;
+package com.org.spring.bean.component;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -7,8 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
-import com.org.spring.faces.Coach;
-import com.org.spring.faces.FortuneService;
+import com.org.spring.interfaces.Coach;
+import com.org.spring.interfaces.FortuneService;
 
 @Component("tenissCoach")
 public class TenisCoach implements Coach{
