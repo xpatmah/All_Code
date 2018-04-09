@@ -14,6 +14,8 @@ import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
+import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -57,6 +59,27 @@ public class UserDetails {
 	//@GeneratedValue(strategy=GenerationType.AUTO)
 	//private int serogatkey;
 	
+	private String name;
+	
+	@Temporal(TemporalType.DATE)
+	private Date joiningDate;
+	
+	@OneToOne
+	@JoinColumn(name="DES_ID")
+	private Description description;
+	
+	@Transient
+	private String passportNo;
+	
+	@OneToMany
+	private Collection<Vehicle> vehicle = new ArrayList<>();
+
+	public Collection<Vehicle> getVehicle() {
+		return vehicle;
+	}
+	public void setVehicle(Collection<Vehicle> vehicle) {
+		this.vehicle = vehicle;
+	}
 	public Collection<Status> getStatus() {
 		return status;
 	}
@@ -75,25 +98,23 @@ public class UserDetails {
 	public void setOfficeAddress(Address officeAddress) {
 		OfficeAddress = officeAddress;
 	}
-	private String name;
 	
-	@Temporal(TemporalType.DATE)
-	private Date joiningDate;
-	
-	@Transient
-	private String description;
-	
-
+	public String getPassportNo() {
+		return passportNo;
+	}
+	public void setPassportNo(String passportNo) {
+		this.passportNo = passportNo;
+	}
 	public Date getJoiningDate() {
 		return joiningDate;
 	}
 	public void setJoiningDate(Date joiningDate) {
 		this.joiningDate = joiningDate;
 	}
-	public String getDescription() {
+	public Description getDescription() {
 		return description;
 	}
-	public void setDescription(String description) {
+	public void setDescription(Description description) {
 		this.description = description;
 	}
 	public int getId() {
