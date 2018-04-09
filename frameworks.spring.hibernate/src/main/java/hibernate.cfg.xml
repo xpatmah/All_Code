@@ -20,6 +20,6 @@
        
         <property name="hibernate.current_session_context_class">thread</property>
 
-        <mapping class="hibernate.sql.domain.UserDetails" />
+        <mapping class="com.org.hibernate.sql.domain.UserDetails" />
     </session-factory>
 </hibernate-configuration>
