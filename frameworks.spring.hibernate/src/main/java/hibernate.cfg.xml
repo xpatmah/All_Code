@@ -3,6 +3,7 @@
         "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
         "http://hibernate.org/dtd/hibernate-configuration-3.0.dtd">
 <hibernate-configuration>
+  
     <session-factory>
         <property name="hibernate.connection.driver_class">org.postgresql.Driver</property>
         <property name="hibernate.connection.url">jdbc:postgresql://localhost:5432/hibernatedb</property>
@@ -20,13 +21,14 @@
        
         <property name="hibernate.current_session_context_class">thread</property>
 
-    <!--<mapping class="com.org.hibernate.sql.domain.UserDetails"/>
-        <mapping class="com.org.hibernate.sql.domain.Vehicle"/>
-        <mapping class="com.org.hibernate.sql.domain.Description"/>
+       <!--  
+        <mapping class="com.org.hibernate.sql.domain.UserDetails" />    
+        <mapping class="com.org.hibernate.sql.domain.Description" />
+        <mapping class="com.org.hibernate.sql.domain.Job"/> 
+        <mapping class="com.org.hibernate.sql.domain.Vehicle" />
         <mapping class="com.org.hibernate.sql.domain.FourWheelerVehicle"/>
-        <mapping class="com.org.hibernate.sql.domain.TwoWheelerVehicle"/> --> 
-        
-        <mapping class="com.org.hibernate.sql.domain.Employee"/>
+        <mapping class="com.org.hibernate.sql.domain.TwoWheelerVehicle"/> -->
+		<mapping class="com.org.hibernate.sql.domain.Employee"/>        
         
     </session-factory>
 </hibernate-configuration>

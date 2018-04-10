@@ -76,6 +76,15 @@ public class UserDetails {
 	inverseJoinColumns= {@JoinColumn(name="VEHICLE_ID")})
 	private Collection<Vehicle> vehicle = new ArrayList<>();
 
+    @OneToMany(mappedBy="userDetails")
+	private Collection<Job> jobs = new ArrayList<>();
+	
+	public Collection<Job> getJobs() {
+		return jobs;
+	}
+	public void setJobs(Collection<Job> jobs) {
+		this.jobs = jobs;
+	}
 	public Collection<Vehicle> getVehicle() {
 		return vehicle;
 	}
