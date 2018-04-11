@@ -153,16 +153,8 @@ public class HibernateApp
         session.beginTransaction();
         session.save(d1);
         session.save(d2);
-        session.save(v1);
-        session.save(v2);
-        session.save(v3);
-        session.save(v4);
-        session.save(j1);
-        session.save(j2);
-        session.save(j3);
-        session.save(j4);
-        session.save(user1);
-        session.save(user2);
+        session.persist(user1);
+        session.persist(user2);
         session.getTransaction().commit();
         session.close();
         

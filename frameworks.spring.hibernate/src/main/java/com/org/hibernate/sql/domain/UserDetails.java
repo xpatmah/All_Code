@@ -6,6 +6,7 @@ import java.util.Date;
 
 import javax.persistence.AttributeOverride;
 import javax.persistence.AttributeOverrides;
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.ElementCollection;
 import javax.persistence.Embedded;
@@ -71,12 +72,12 @@ public class UserDetails {
 	@Transient
 	private String passportNo;
 	
-	@OneToMany
+	@OneToMany(cascade=CascadeType.PERSIST)
 	@JoinTable(name="VEHICLE_TABLE", joinColumns= {@JoinColumn(name="USER_ID")},
 	inverseJoinColumns= {@JoinColumn(name="VEHICLE_ID")})
 	private Collection<Vehicle> vehicle = new ArrayList<>();
 
-    @OneToMany(mappedBy="userDetails")
+    @OneToMany(mappedBy="userDetails",cascade=CascadeType.PERSIST)
 	private Collection<Job> jobs = new ArrayList<>();
 	
 	public Collection<Job> getJobs() {
