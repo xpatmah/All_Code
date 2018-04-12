@@ -22,13 +22,13 @@
         <property name="hibernate.current_session_context_class">thread</property>
 
        
-        <mapping class="com.org.hibernate.sql.domain.UserDetails" />    
+   <!--      <mapping class="com.org.hibernate.sql.domain.UserDetails" />    
         <mapping class="com.org.hibernate.sql.domain.Description" />
         <mapping class="com.org.hibernate.sql.domain.Job"/> 
         <mapping class="com.org.hibernate.sql.domain.Vehicle" />
         <mapping class="com.org.hibernate.sql.domain.FourWheelerVehicle"/>
-        <mapping class="com.org.hibernate.sql.domain.TwoWheelerVehicle"/>
-		<!-- <mapping class="com.org.hibernate.sql.domain.Employee"/>   -->      
+        <mapping class="com.org.hibernate.sql.domain.TwoWheelerVehicle"/> -->
+		 <mapping class="com.org.hibernate.sql.domain.Employee"/>      
         
     </session-factory>
 </hibernate-configuration>

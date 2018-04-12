@@ -3,10 +3,12 @@ package com.org.hibernate;
 import java.util.List;
 import java.util.Random;
 
+import org.hibernate.Criteria;
 import org.hibernate.Query;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.criterion.Restrictions;
 
 import com.org.hibernate.sql.domain.Employee;
 
@@ -26,6 +28,7 @@ public class HibernateQueryLanguage {
 			emp.setName("Employee "+i);
 			emp.setSalary(ran.nextInt(9999)*i);
 			session.save(emp);
+			
 		}
 		
 		session.getTransaction().commit();
@@ -50,7 +53,19 @@ public class HibernateQueryLanguage {
         
         list.stream().forEach(System.out::println);
 		
+        session  = factory.openSession();
         
+        session.beginTransaction();
+        
+        Criteria c = session.createCriteria(Employee.class);
+        
+        c.add(Restrictions.eq("name", "Employee 4"));        
+        
+        List<Employee> empDetails = c.list();
+        
+        session.getTransaction().commit();
+        
+        empDetails.stream().forEach(System.out::println);
 		factory.close();
 		
 	}
