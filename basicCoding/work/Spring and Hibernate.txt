@@ -1,7 +1,7 @@
 Spring Core 
 Spring AOP
 Spring MVC
-Spring Security  25 Hrs
+Spring Security  31 Hrs
 
 Spring Boot 11 hrs
 RabbitMQ 2.5 hrs
