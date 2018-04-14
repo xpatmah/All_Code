@@ -2,23 +2,25 @@ Spring Core
 Spring AOP
 Spring MVC
 Spring Security  31 Hrs
-
+Spring Cloud(MicroServices) 4.5 hours
 Spring Boot 11 hrs
 RabbitMQ 2.5 hrs
 WebSockets 3.5 hrs
-
-Java Script 11.5 hours
-Angular 27 hours
-Node 13 hours
+Apache Maven 4.5 hours
+57 Hrs
 
 Imp*
-MicroServices With Spring Cloud(Spring Cloud)
+DSA 
+CLOUD
+AI
+Multithreading & Generics and Collections
+Design Patterns
+Sql
 
-Spring Data(ORM-Hibernate)
-Spring Mockito/JUnit
-Spring Batch
 
-Apache Maven
+PUZZLE
+
+
 
 
 

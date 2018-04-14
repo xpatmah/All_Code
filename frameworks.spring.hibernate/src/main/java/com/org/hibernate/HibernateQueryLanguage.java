@@ -45,7 +45,7 @@ public class HibernateQueryLanguage {
         
         query.setString(0, "Employee 1");
         
-        List<String> list= (List<String>)query.list();
+        List<Employee> list= (List<Employee>)query.list();
         
         session.getTransaction().commit();
         
