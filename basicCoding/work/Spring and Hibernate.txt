@@ -7,7 +7,9 @@ Spring Boot 11 hrs
 RabbitMQ 2.5 hrs
 WebSockets 3.5 hrs
 Apache Maven 4.5 hours
-57 Hrs
+Docker 3.5 
+PostMan 1 hr
+70 Hrs
 
 Imp*
 DSA 
