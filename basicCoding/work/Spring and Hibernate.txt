@@ -2,6 +2,7 @@ Spring Core
 Spring AOP
 Spring MVC
 Spring Security  31 Hrs
+Spring Data 13 hrs
 Spring Cloud(MicroServices) 4.5 hours
 Spring Boot 11 hrs
 RabbitMQ 2.5 hrs
@@ -9,7 +10,7 @@ WebSockets 3.5 hrs
 Apache Maven 4.5 hours
 Docker 3.5 
 PostMan 1 hr
-70 Hrs
+85 Hrs
 
 Imp*
 DSA 
