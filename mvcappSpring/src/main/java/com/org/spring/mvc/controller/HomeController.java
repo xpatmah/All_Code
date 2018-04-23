@@ -16,7 +16,7 @@ public class HomeController {
 	}
 	
 	
-	@RequestMapping("/processForm")
+	@RequestMapping("/processForms")
 	public String getName(HttpServletRequest request , Model model) {
 		
 		String name = request.getParameter("studentName");
