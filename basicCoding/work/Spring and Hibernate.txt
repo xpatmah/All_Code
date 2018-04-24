@@ -1,25 +1,26 @@
 Spring Core 
 Spring AOP
-Spring MVC
-Spring Security  31 Hrs
+Spring MVC 31 Hrs
+Spring Security  6 Hrs
 Spring Data 13 hrs
 Spring Boot 11 hrs
-
+Design Patterns 10.5 hours
+Spring Integration and Batch Developers 12 Hrs
 Spring Cloud(MicroServices) 4.5 hours
 RabbitMQ 2.5 hrs
 WebSockets 3.5 hrs
 Apache Maven 4.5 hours
 Docker 3.5 
 PostMan 1 hr
-85 Hrs
+103 Hrs
 
 Imp*
 DSA 
 CLOUD
 AI
 Multithreading & Generics and Collections
-Design Patterns
 Sql
+Core Java Questions
 
 
 PUZZLE
