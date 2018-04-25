@@ -11,7 +11,7 @@ RabbitMQ 2.5 hrs
 WebSockets 3.5 hrs
 Apache Maven 4.5 hours
 Docker 3.5 
-PostMan 1 hr
+PostMan/Swagger 1 hr
 103 Hrs
 
 Imp*
