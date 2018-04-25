@@ -1,9 +1,14 @@
 package com.tricky;
 class A
 {
+	
 	void method(Integer i)
 	{
 		//method(int)
+	}
+	
+	final void getmethod() {
+		
 	}
 }
 
@@ -14,4 +19,8 @@ class B extends A
 	{
 		//method(Integer)
 	}
+	
+ //   private void getmethod() {
+		
+	//}
 }
