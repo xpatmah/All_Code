@@ -12,7 +12,8 @@ WebSockets 3.5 hrs
 Apache Maven 4.5 hours
 Docker 3.5 
 PostMan/Swagger 1 hr
-103 Hrs
+Junit/Mokito 3 hr
+106 Hrs
 
 Imp*
 DSA 
