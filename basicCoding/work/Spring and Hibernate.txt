@@ -13,14 +13,15 @@ Apache Maven 4.5 hours
 Docker 3.5 
 PostMan/Swagger 1 hr
 Junit/Mokito 3 hr
-106 Hrs
+Multithreading & Generics and Collections 10 Hrs
+116 Hrs
 
 Imp*
 DSA 
 CLOUD
 AI
-Multithreading & Generics and Collections
-Sql
+Sql 
+Multithreading and Collection (Implementation)
 Core Java Questions
 
 
