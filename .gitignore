@@ -9,6 +9,8 @@ $ cat .gitignore
 # Use wildcards as well
 *~
 *.swp
+*.jks
+*.pem
 
 # Can also ignore all directories and files in a directory.
 target/ 
