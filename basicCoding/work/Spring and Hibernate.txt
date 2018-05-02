@@ -24,13 +24,19 @@ Sql
 Multithreading and Collection (Implementation)
 Core Java Questions
 
+Artificial Intelligence I: Basics and Games in Java 7.5
+Artificial Intelligence II - Neural Networks in Java 5 Hrs
+Artificial Intelligence III - Deep Learning in Java 4 hrs
+Artificial Intelligence IV - Reinforcement Learning in Java 3 hrs
 
-10.5
-7.5
-12 hr
-7.5 hrs
-10 hours
-14.5 
+Data Structures and Algorithms Through Java In Depth 10.5
+Advanced Data Structures and Algorithms in Java 7.5
+Algorithms and Data Structures in Java - Part I 12.5
+Algorithms and Data Structures in Java - Part II 7.5
+Advanced Algorithms in Java 10 hrs
+Algorithmic Problems in Java 7 hrs
+Algorithms and Software Engineering for Professionals  7.5
+
 
 PUZZLE
 
