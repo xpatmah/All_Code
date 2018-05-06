@@ -1,35 +1,3 @@
-
-/*
- * Copyright (c) 1995, 2008, Oracle and/or its affiliates. All rights reserved.
- *
- * Redistribution and use in source and binary forms, with or without
- * modification, are permitted provided that the following conditions
- * are met:
- *
- *   - Redistributions of source code must retain the above copyright
- *     notice, this list of conditions and the following disclaimer.
- *
- *   - Redistributions in binary form must reproduce the above copyright
- *     notice, this list of conditions and the following disclaimer in the
- *     documentation and/or other materials provided with the distribution.
- *
- *   - Neither the name of Oracle or the names of its
- *     contributors may be used to endorse or promote products derived
- *     from this software without specific prior written permission.
- *
- * THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS
- * IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO,
- * THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
- * PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR
- * CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL,
- * EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
- * PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
- * PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
- * LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
- * NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
- * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- */
- 
 package org.com.interview.practice;
  
 import java.awt.*;
@@ -37,18 +5,21 @@ import java.awt.TrayIcon.MessageType;
 import java.awt.event.*;
 import java.net.URL;
 import java.util.Enumeration;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import javax.swing.*;
  
-public class TrayIconDemo {
+public class VocabNotification {
 	
 	private static Enumeration<Object> keys;
 	
 	private static Object obj;
 	
+	private static AtomicInteger counter = new AtomicInteger(0);
+	
     public static void main(String[] args) throws Exception {
         /* Use an appropriate Look and Feel */
-    	URL url = TrayIconDemo.class.getClassLoader().getResource("a.properties");
+    	URL url = VocabNotification.class.getClassLoader().getResource("a.properties");
     	loadPropertyFile(url.getPath());
     	keys = ConfigurationPropertiesLoader.getInstance().getProperties();
         try {
@@ -81,11 +52,14 @@ public class TrayIconDemo {
         final SystemTray tray = SystemTray.getSystemTray();
          
         // Create a popup menu components
+        MenuItem nextQuestion = new MenuItem("Next Question");
         MenuItem aboutItem = new MenuItem("Explanation");
         MenuItem exitItem = new MenuItem("Exit");
         MenuItem skip_lot = new MenuItem("Skip 50 Item");
          
         //Add components to popup menu
+        popup.add(nextQuestion);
+        popup.addSeparator();
         popup.add(aboutItem);
         popup.addSeparator();
         popup.add(exitItem);
@@ -104,7 +78,7 @@ public class TrayIconDemo {
         new Thread(() ->  {
         	while(keys.hasMoreElements()) {
         		obj = keys.nextElement();
-        		trayIcon.displayMessage("", "            "+obj.toString()+"                 ", MessageType.INFO);
+        		trayIcon.displayMessage("Vocab No "+counter.incrementAndGet(), "            "+obj.toString()+"                 ", MessageType.INFO);
             	try {
     				Thread.sleep(300000);
     			} catch (InterruptedException e1) {
@@ -117,7 +91,7 @@ public class TrayIconDemo {
          
         aboutItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null,obj.toString()+" : "+
+                JOptionPane.showMessageDialog(null,counter.get()+" "+obj.toString()+" : "+
                         ConfigurationPropertiesLoader.PROPERTIES.getProperty(obj.toString()) );
             }
         });
@@ -125,6 +99,7 @@ public class TrayIconDemo {
         exitItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 tray.remove(trayIcon);
+                System.out.println("Vocab Counter was "+counter.get());
                 System.exit(0);
             }
         });
@@ -136,11 +111,20 @@ public class TrayIconDemo {
                 }
             }
         });
+        
+        nextQuestion.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+            	if(keys.hasMoreElements()) {
+            		obj = keys.nextElement();
+            		trayIcon.displayMessage("Vocab No "+counter.incrementAndGet(), "            "+obj.toString()+"                 ", MessageType.INFO);
+            	}
+            }
+        });
     }
      
     //Obtain the image URL
     protected static Image createImage(String path, String description) {
-        URL imageURL = TrayIconDemo.class.getClassLoader().getResource(path);
+        URL imageURL = VocabNotification.class.getClassLoader().getResource(path);
          
         if (imageURL == null) {
             System.err.println("Resource not found: " + path);

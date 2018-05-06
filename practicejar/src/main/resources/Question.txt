@@ -1,0 +1,19 @@
+How Hash Set Works?
+Expalin Tree Set Working ? 
+What is difference between user Thread and daemon Thread?
+Why Thread sleep() and yield() methods are static?
+What is volatile keyword in Java? 
+What is ThreadLocal? 
+What is the Working of Reentrant Lock? 
+What is Java Thread Dump, How can we get Java Thread dump of a Program?
+What is Deadlock? How to analyze and avoid deadlock situation? 
+What is Thread Pool? How can we create Thread Pool in Java?
+What is atomic operation? What are atomic classes in Java Concurrency API?
+
+
+
+
+
+
+
+
