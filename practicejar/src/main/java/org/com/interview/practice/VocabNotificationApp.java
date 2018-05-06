@@ -9,7 +9,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 
 import javax.swing.*;
  
-public class VocabNotification {
+public class VocabNotificationApp {
 	
 	private static Enumeration<Object> keys;
 	
@@ -19,7 +19,7 @@ public class VocabNotification {
 	
     public static void main(String[] args) throws Exception {
         /* Use an appropriate Look and Feel */
-    	URL url = VocabNotification.class.getClassLoader().getResource("a.properties");
+    	URL url = VocabNotificationApp.class.getClassLoader().getResource("a.properties");
     	loadPropertyFile(url.getPath());
     	keys = ConfigurationPropertiesLoader.getInstance().getProperties();
         try {
@@ -35,7 +35,6 @@ public class VocabNotification {
     }
      
     private static void loadPropertyFile(String path) throws Exception {
-		// TODO Auto-generated method stub
     	ConfigurationPropertiesLoader.getInstance().loadPropertiesFile(path);
 	}
 
@@ -124,7 +123,7 @@ public class VocabNotification {
      
     //Obtain the image URL
     protected static Image createImage(String path, String description) {
-        URL imageURL = VocabNotification.class.getClassLoader().getResource(path);
+        URL imageURL = VocabNotificationApp.class.getClassLoader().getResource(path);
          
         if (imageURL == null) {
             System.err.println("Resource not found: " + path);

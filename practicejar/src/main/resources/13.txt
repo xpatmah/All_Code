@@ -1,0 +1,7 @@
+This is one my favourite question, i am going to discuss it in a very detailed manner. 
+serialVersionUID is used for version control of object.
+If we  don’t define serialVersionUID in the class, and any modification is made in class, 
+then we won’t be able to deSerialize our class because serialVersionUID generated 
+by java compiler for modified class will be different from old serialized object.
+And deserialization process will end up throwing java.io.InvalidClassException  
+(because of serialVersionUID mismatch) 

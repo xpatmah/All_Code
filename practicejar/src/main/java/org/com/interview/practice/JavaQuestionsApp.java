@@ -1,6 +1,7 @@
 package org.com.interview.practice;
  
 import java.awt.AWTException;
+import java.awt.FlowLayout;
 import java.awt.Image;
 import java.awt.MenuItem;
 import java.awt.PopupMenu;
@@ -16,12 +17,15 @@ import java.io.InputStreamReader;
 import java.net.URL;
 
 import javax.swing.ImageIcon;
-import javax.swing.JOptionPane;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
  
-public class JavaQuestionDemo {
+public class JavaQuestionsApp {
 	
 	private static BufferedReader reader;
 	
@@ -29,7 +33,7 @@ public class JavaQuestionDemo {
 
 	
     public static void main(String[] args) throws Exception {
-    	InputStream inputReder = JavaQuestionDemo.class.getClassLoader().getResourceAsStream("Question.txt");
+    	InputStream inputReder = JavaQuestionsApp.class.getClassLoader().getResourceAsStream("Question.txt");
     	reader = new BufferedReader(new InputStreamReader(inputReder));
         try {
         	UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
@@ -51,7 +55,7 @@ public class JavaQuestionDemo {
         }
         final PopupMenu popup = new PopupMenu();
         final TrayIcon trayIcon =
-                new TrayIcon(createImage("java.jpg", "Java Question"));    
+                new TrayIcon(createImage("java.gif", "Java Question"));    
         trayIcon.setImageAutoSize(true);
         final SystemTray tray = SystemTray.getSystemTray();
          
@@ -62,9 +66,9 @@ public class JavaQuestionDemo {
         MenuItem skip_lot = new MenuItem("Skip 5 Item");
          
         //Add components to popup menu
-      //  popup.add(aboutItem);
-       // popup.addSeparator();
         popup.add(next);
+        popup.addSeparator();
+        popup.add(aboutItem);
         popup.addSeparator();
         popup.add(exitItem);
         popup.addSeparator();
@@ -85,7 +89,7 @@ public class JavaQuestionDemo {
 				while(null!=(str=reader.readLine())) {
 					trayIcon.displayMessage("", "            "+str+"                 ", MessageType.INFO);
 					try {
-						Thread.sleep(60000);
+						Thread.sleep(420000);
 					} catch (InterruptedException e1) {
 						// TODO Auto-generated catch block
 						e1.printStackTrace();
@@ -100,8 +104,30 @@ public class JavaQuestionDemo {
          
         aboutItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                JOptionPane.showMessageDialog(null,obj.toString()+" : "+
-                        ConfigurationPropertiesLoader.PROPERTIES.getProperty(obj.toString()) );
+                JFrame frame = new JFrame("Ans");
+                frame.setSize(400,400);
+                frame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+                frame.setLocationRelativeTo(null);
+                JPanel controlPanel = new JPanel();
+                controlPanel.setLayout(new FlowLayout());
+                JTextArea textArea = new JTextArea();
+                textArea.setSize(400, 400);
+                textArea.setLineWrap(true);
+                textArea.setEditable(false);
+                textArea.setWrapStyleWord(true);
+                JScrollPane pane = new JScrollPane(textArea);
+                controlPanel.add(pane);
+                textArea.setText("ldknvsdlknvsdfklndsflbndsfbnsdfblksdnbldskbndsfklbnsd"
+                		+ ",smdfb sdmfbsldkfbnsdlfkbnsdf"
+                		+ "sdfbnsldkbnsdfl;bnsdflkbnsdfb"
+                		+ "sdlfbnsldkfbd.s,.asd,"
+                		+ "sd,fc asdm,nadsm,f"
+                		+ "asdfnasdlfnadsklfnads"
+                		+ "asldfnasdklfnadsklnfasd"
+                		+ "fasdlfnadsklfnadsklf"
+                		+ "asdflasdnflkadsfadsnsdflkbnsdfklb");
+                frame.add(controlPanel); 
+                frame.setVisible(true);
             }
         });
          
@@ -129,7 +155,7 @@ public class JavaQuestionDemo {
      
     //Obtain the image URL
     protected static Image createImage(String path, String description) {
-        URL imageURL = JavaQuestionDemo.class.getClassLoader().getResource(path);
+        URL imageURL = JavaQuestionsApp.class.getClassLoader().getResource(path);
          
         if (imageURL == null) {
             System.err.println("Resource not found: " + path);
