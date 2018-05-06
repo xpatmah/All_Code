@@ -19,7 +19,7 @@ Python/
 
 Daily 1 out of 3 (10Days )
 30 Objective Java(* inner Class,annotation,Enums,Serialization,Java 7 & 8,File I/O,Cloaning) ,Java-Refection ,Java Regex)
-English (Morning 1 or 2 lectures)
+English (Morning 1 or 2 lectures)/Share Market
 Maths/
 
 Maths ( Set theory / Sequence and series (including binomial) / Permutation Combination / Probability) 

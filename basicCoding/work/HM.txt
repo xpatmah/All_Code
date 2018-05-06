@@ -1,6 +1,5 @@
-Merge Two linklist with or without extra space
 Sort link list with bubble sort and merge sort
-Merging two sorted List
+Merging two sorted List with or without extra space
 floyd cycle detection algorithm
 Circular linkList
 Doubly Link List
