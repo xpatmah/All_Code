@@ -11,6 +11,8 @@
 11 What is atomic operation? What are atomic classes in Java Concurrency API?
 12 What is serialVersionUID?
 13 What will be impact of not defining serialVersionUID in class (Important)?
+14 @Around("execution(* com.mycomp.proj.parent..*.*(..))")? What does it mean?
+15 @AfterReturning( pointcut="execution(* com.java2novice.bean.MyBusinessService.runMyBusinessLogic(..))", returning="returnValue")
 
 
 

@@ -29,9 +29,6 @@ public class JavaQuestionsApp {
 	
 	private static BufferedReader reader;
 	
-	private static Object obj;
-
-	
     public static void main(String[] args) throws Exception {
     	InputStream inputReder = JavaQuestionsApp.class.getClassLoader().getResourceAsStream("Question.txt");
     	reader = new BufferedReader(new InputStreamReader(inputReder));
