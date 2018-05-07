@@ -1,0 +1,10 @@
+rabbitmqctl add_user test test
+rabbitmqctl set_user_tags test administrator
+rabbitmqctl set_permissions -p / test ".*" ".*" ".*"
+
+
+curl -i -u test:test http://localhost:15672/api/whoami
+
+for the above one to work we need to enable the management plugin I guess
+
+rabbitmq-plugins enable rabbitmq_management
