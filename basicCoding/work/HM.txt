@@ -6,3 +6,12 @@ Doubly Link List
 Circular Queue 
 Deque(using circular queue)
 Priority Queue
+
+
+
+
+Spring 
+
+Factory Method
+Factory Bean
+lookup method

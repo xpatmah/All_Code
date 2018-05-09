@@ -1,10 +1,7 @@
 package com.org.spring;
 
-
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-
 import com.org.spring.interfaces.Coach;
-
 
 public class App 
 {
