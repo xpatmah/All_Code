@@ -1,13 +1,9 @@
 package com.org.spring;
 
 
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.org.spring.bean.component.DefaultBeanComponent;
-import com.org.spring.bean.component.Rectangle;
-import com.org.spring.bean.component.TenisCoach;
-import com.org.spring.bean.java.config.ConfigurationSpring;
+import com.org.spring.interfaces.Coach;
 
 
 public class App 
@@ -18,12 +14,16 @@ public class App
     	
     	//AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ConfigurationSpring.class);
     	
-    	TenisCoach coach = context.getBean("tenissCoach" , TenisCoach.class);
+    	String[] names = context.getBeanDefinitionNames();
+    	for(String name : names) {
+    		System.out.println(name);
+    	}
+    	
+    	Coach coach = context.getBean("tenissCoach",Coach.class);
     	
     	System.out.println(coach.getDailyWorkOut());
     	System.out.println(coach.getTodayFortune());
     	
-    	context.close();
-    	
+    	context.close();    	
     }
 }

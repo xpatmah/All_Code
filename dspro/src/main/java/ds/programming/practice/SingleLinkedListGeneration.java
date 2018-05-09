@@ -32,7 +32,7 @@ public class SingleLinkedListGeneration {
 	
 	
 	public void printList(Node start) {
-		for(Node node = this.start ; node!=null ; node = node.getNext()) {
+		for(Node node = start ; node!=null ; node = node.getNext()) {
 			System.out.print(node.getInfo()+", ");
 		}
 	}

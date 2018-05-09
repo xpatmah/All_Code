@@ -8,9 +8,12 @@ public class SortLinkedList {
 		Node startNode = list.getList();
 		list.printList(startNode);
 		SortLinkedList sortedList = new SortLinkedList();
-		startNode = sortedList.getSortedList(startNode);
+		startNode = sortedList.getSortedListWithExLinks(startNode);
+		Node secondNode = sortedList.getSortedList(list.getList());
 		System.out.println();
 		list.printList(startNode);
+		System.out.println();
+		list.printList(secondNode);
 	}
 	
 	public Node getSortedList(Node startNode) {
@@ -29,15 +32,24 @@ public class SortLinkedList {
 		return startNode;
 	}
 	
-	public Node getSortedListWithExData(Node start) {
+	public Node getSortedListWithExLinks(Node start) {
 
 		Node p,q,r,end,temp;
 		
 		for(end = null ; end!=start.getNext(); end = p) {
-			for(r = p = start ; p.getNext()!=null ;r=p, p=p.getNext()) {
+			for(r = p = start ; p.getNext()!=end ;r=p, p=p.getNext()) {
 				q =p.getNext();
 				if(p.getInfo() > q.getInfo()) {
 					p.setNext(q.getNext());
+					q.setNext(p);
+					if(p!=start) {
+						r.setNext(q);
+					}else {
+						start = q;
+					}
+					temp = p;
+					p = q;
+					q = temp;
 				}
 			}
 		}
