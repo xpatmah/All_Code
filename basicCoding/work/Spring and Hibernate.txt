@@ -23,14 +23,10 @@ Imp*
 DSA 
 CLOUD
 AI
+
 Sql 
 Multithreading and Collection (Implementation)
 Core Java Questions
-
-Artificial Intelligence I: Basics and Games in Java 7.5
-Artificial Intelligence II - Neural Networks in Java 5 Hrs
-Artificial Intelligence III - Deep Learning in Java 4 hrs
-Artificial Intelligence IV - Reinforcement Learning in Java 3 hrs
 
 Data Structures and Algorithms Through Java In Depth 10.5
 Advanced Data Structures and Algorithms in Java 7.5
@@ -40,8 +36,12 @@ Advanced Algorithms in Java 10 hrs
 Algorithmic Problems in Java 7 hrs
 Algorithms and Software Engineering for Professionals  7.5
 
-
 PUZZLE
+
+Artificial Intelligence I: Basics and Games in Java 7.5
+Artificial Intelligence II - Neural Networks in Java 5 Hrs
+Artificial Intelligence III - Deep Learning in Java 4 hrs
+Artificial Intelligence IV - Reinforcement Learning in Java 3 hrs
 
 
 
