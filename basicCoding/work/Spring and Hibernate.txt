@@ -4,20 +4,17 @@ Spring Data 13 hrs
 Spring Boot 11 hrs
 RabbitMQ 2.5 hrs
 WebSockets 3.5 hrs
-Design Patterns 10.5 hours
-Multithreading & Generics and Collections 10 Hrs
 Junit/Mokito 3 hr
 Apache Maven 4.5 hours
+Spring Security  6 Hrs
+Spring Cloud(MicroServices) 4.5 hours
 
 Spring MVC 31 Hrs
-Spring Security  6 Hrs
 Spring Integration and Batch Developers 12 Hrs
-Spring Cloud(MicroServices) 4.5 hours
-Apache Maven 4.5 hours
 Docker 3.5 
 PostMan/Swagger 1 hr
 
-116 Hrs
+100 Hrs
 
 Imp*
 DSA 
@@ -28,6 +25,8 @@ Sql
 Multithreading and Collection (Implementation)
 Core Java Questions
 
+Design Patterns 10.5 hours
+
 Data Structures and Algorithms Through Java In Depth 10.5
 Advanced Data Structures and Algorithms in Java 7.5
 Algorithms and Data Structures in Java - Part I 12.5
@@ -35,6 +34,7 @@ Algorithms and Data Structures in Java - Part II 7.5
 Advanced Algorithms in Java 10 hrs
 Algorithmic Problems in Java 7 hrs
 Algorithms and Software Engineering for Professionals  7.5
+Multithreading & Generics and Collections 10 Hrs
 
 PUZZLE
 
