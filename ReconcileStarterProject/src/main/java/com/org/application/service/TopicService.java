@@ -6,12 +6,16 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.org.application.config.SwaggerConfig;
 import com.org.application.domain.Topic;
 import com.org.application.repositories.TopicRepository;
 
 @Service
 public class TopicService {
 
+	@Autowired
+	private SwaggerConfig config;
+	
 	@Autowired
 	private TopicRepository repository;
 	
