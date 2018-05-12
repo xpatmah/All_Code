@@ -1,0 +1,26 @@
+Tomcat-
+
+when we run tomcat from eclipse
+
+https://stackoverflow.com/questions/14030857/tomcat-home-page-is-not-showing-when-running-in-eclipse
+  
+Create new server provide the directory to vizard and run the tomacat.
+
+
+GlassFish
+
+down load glassFish zip
+
+download the eclispe glashfish tool from eclipse market place
+
+new Server and provide the directory of glassfish as tomcat.
+
+jdk path upto jdk folder.
+
+username admin
+password <leave Blank> 
+
+project Creation
+
+Create Dynamin Web Project and Use the GlassFish as Run time environment convert it to maven Project
+ 

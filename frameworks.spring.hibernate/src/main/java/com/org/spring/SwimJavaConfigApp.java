@@ -18,9 +18,7 @@ public class SwimJavaConfigApp {
 		
 		System.out.println(coach.getTodayFortune());
 		
-		
 		context.close();
-		
 	}
 
 }
