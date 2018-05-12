@@ -2,6 +2,7 @@ Spring Core
 Spring AOP
 Spring Data 13 hrs
 Spring Boot 11 hrs
+Spring Boot Quick Start 5 Hrs
 RabbitMQ 2.5 hrs
 WebSockets 3.5 hrs
 Junit/Mokito 3 hr
@@ -18,7 +19,8 @@ Java Web Services Part 2 4.5
 SOAP Web Services 4.5 
 REST Web Services 11.5
 
-116 Hrs
+Web 135 Hrs
+
 
 Imp*
 DSA 
@@ -45,7 +47,6 @@ Algorithms and Data Structures in Java - Part II 7.5
 Advanced Algorithms in Java 10 hrs
 Algorithmic Problems in Java 7 hrs
 Algorithms and Software Engineering for Professionals  7.5
-Multithreading & Generics and Collections 10 Hrs
 
 Artificial Intelligence I: Basics and Games in Java 7.5
 Artificial Intelligence II - Neural Networks in Java 5 Hrs
