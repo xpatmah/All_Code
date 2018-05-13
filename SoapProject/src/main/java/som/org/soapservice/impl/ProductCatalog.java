@@ -6,7 +6,9 @@ import java.util.List;
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
-@WebService
+import som.org.soapservice.domain.Product;
+
+@WebService(name="ProductService")
 public class ProductCatalog {
 
 	@WebMethod
@@ -26,6 +28,14 @@ public class ProductCatalog {
 		productList.add(product1);
 		productList.add(product2);
 		return productList;
+	}
+	
+	
+	@WebMethod
+	public Product getProduct(String name , String owner , String price){
+		
+		return new Product(name, owner, price);
+		
 	}
 	
 }

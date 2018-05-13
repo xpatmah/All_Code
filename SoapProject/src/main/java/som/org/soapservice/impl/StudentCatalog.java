@@ -5,7 +5,7 @@ import java.util.List;
 
 import javax.jws.WebService;
 
-@WebService
+@WebService(serviceName="CommonService")
 public class StudentCatalog {
 
 	public List<String> getAllStudent(){
