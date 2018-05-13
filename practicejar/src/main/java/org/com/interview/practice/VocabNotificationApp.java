@@ -131,7 +131,7 @@ public class VocabNotificationApp {
         	while(it.hasNext()) {
         		obj = it.next();
         		previouseVocab.put(obj.getKey(), obj.getValue());
-        		trayIcon.displayMessage("Vocab No "+counter.incrementAndGet(), "      :      "+obj.getKey().toString()+"                 ", MessageType.INFO);
+        		trayIcon.displayMessage("Vocab No "+counter.incrementAndGet(), "            "+obj.getKey().toString()+"                 ", MessageType.INFO);
             	try {
     				Thread.sleep(1800000);
     			} catch (InterruptedException e1) {
@@ -149,9 +149,9 @@ public class VocabNotificationApp {
             }
         });
          
-        exitItem.addActionListener(new ActionListener() {
+        showagain.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-            	trayIcon.displayMessage("Vocab No "+counter.get(), "     :      "+obj.getKey().toString()+"                 ", MessageType.INFO);
+            	trayIcon.displayMessage("Vocab No "+counter.get(), "           "+obj.getKey().toString()+"                 ", MessageType.INFO);
             }
         });
         
@@ -201,7 +201,7 @@ public class VocabNotificationApp {
             	if(it.hasNext()) {
             		obj = it.next();
             		previouseVocab.put(obj.getKey(), obj.getValue());
-            		trayIcon.displayMessage("Vocab No "+counter.incrementAndGet(), "    :      "+obj.getKey().toString()+"                 ", MessageType.INFO);
+            		trayIcon.displayMessage("Vocab No "+counter.incrementAndGet(), "          "+obj.getKey().toString()+"                 ", MessageType.INFO);
             	}
             }
         });
