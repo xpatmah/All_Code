@@ -30,6 +30,9 @@ import javax.swing.JTextArea;
 import javax.swing.SwingUtilities;
 import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
  
 public class VocabNotificationApp {
 	
@@ -38,6 +41,8 @@ public class VocabNotificationApp {
 	private static Map<String , String> previouseVocab; 
 	
 	private static Set<Map.Entry<String, String>> entrySedt;
+	
+	private static Map<String , String> usage; 
 	
 	private static Iterator<Map.Entry<String, String>> it;
 	
@@ -51,6 +56,7 @@ public class VocabNotificationApp {
     	keys = new ConcurrentHashMap<>();
     	previouseVocab = new LinkedHashMap<>();
     	entrySedt = loadCsvFile(inputStream);
+    	usage = new LinkedHashMap<>();
     	it = entrySedt.iterator();
         try {
         	UIManager.setLookAndFeel(UIManager.getSystemLookAndFeelClassName());
@@ -103,9 +109,12 @@ public class VocabNotificationApp {
         MenuItem previouseVocabs = new MenuItem("All PreviousWords");
         MenuItem exitItem = new MenuItem("Exit");
         MenuItem skip_lot = new MenuItem("Skip 50 Item");
+        MenuItem usage = new MenuItem("Usage");
          
         //Add components to popup menu
         popup.add(showagain);
+        popup.addSeparator();
+       // popup.add(usage);
         popup.addSeparator();
         popup.add(nextQuestion);
         popup.addSeparator();
@@ -152,6 +161,12 @@ public class VocabNotificationApp {
         showagain.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
             	trayIcon.displayMessage("Vocab No "+counter.get(), "           "+obj.getKey().toString()+"                 ", MessageType.INFO);
+            }
+        });
+        
+        usage.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+            	JSONObject json = new JSONObject(getUsage(obj.getKey()));
             }
         });
         
@@ -207,15 +222,21 @@ public class VocabNotificationApp {
         });
     }
 	
+	private static String getUsage(String word) {
+		String url = dictionaryEntries(word);
+		String usage = getRequestedSentence(url);
+		return usage;
+	}
+	
 	//https://developer.oxforddictionaries.com/documentation#/ usename =mahesh.pathak  passwd=default-8@121
 	
-	private String dictionaryEntries(String word) {
+	private static String dictionaryEntries(String word) {
         final String language = "en";
         final String word_id = word.toLowerCase(); //word id is case sensitive and lowercase is required
-        return "https://od-api.oxforddictionaries.com:443/api/v1/entries/" + language + "/" + word_id;
+        return "https://od-api.oxforddictionaries.com:443/api/v1/entries/" + language + "/" + word_id + "/sentences";
     }
 	
-	private String getRequestedWord(String urls) {
+	private static String getRequestedSentence(String urls) {
              //TODO: replace with your own app id and app key
              final String app_id = "70077c9a";
              final String app_key = "21ed846568037f5d3fa969b5f6123250";
