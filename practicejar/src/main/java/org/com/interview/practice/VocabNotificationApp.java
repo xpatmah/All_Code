@@ -14,8 +14,8 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.net.URL;
-import java.util.HashMap;
 import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
@@ -49,7 +49,7 @@ public class VocabNotificationApp {
         /* Use an appropriate Look and Feel */
     	InputStream inputStream = VocabNotificationApp.class.getClassLoader().getResourceAsStream("Words.csv");
     	keys = new ConcurrentHashMap<>();
-    	previouseVocab = new HashMap<>();
+    	previouseVocab = new LinkedHashMap<>();
     	entrySedt = loadCsvFile(inputStream);
     	it = entrySedt.iterator();
         try {
@@ -129,7 +129,7 @@ public class VocabNotificationApp {
         		previouseVocab.put(obj.getKey(), obj.getValue());
         		trayIcon.displayMessage("Vocab No "+counter.incrementAndGet(), "            "+obj.getKey().toString()+"                 ", MessageType.INFO);
             	try {
-    				Thread.sleep(300000);
+    				Thread.sleep(1800000);
     			} catch (InterruptedException e1) {
     				// TODO Auto-generated catch block
     				e1.printStackTrace();
