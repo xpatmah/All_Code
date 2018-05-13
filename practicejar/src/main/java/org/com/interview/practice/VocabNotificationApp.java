@@ -98,12 +98,15 @@ public class VocabNotificationApp {
          
         // Create a popup menu components
         MenuItem nextQuestion = new MenuItem("Next Question");
+        MenuItem showagain = new MenuItem("Show Again");
         MenuItem aboutItem = new MenuItem("Explanation");
         MenuItem previouseVocabs = new MenuItem("All PreviousWords");
         MenuItem exitItem = new MenuItem("Exit");
         MenuItem skip_lot = new MenuItem("Skip 50 Item");
          
         //Add components to popup menu
+        popup.add(showagain);
+        popup.addSeparator();
         popup.add(nextQuestion);
         popup.addSeparator();
         popup.add(aboutItem);
@@ -128,7 +131,7 @@ public class VocabNotificationApp {
         	while(it.hasNext()) {
         		obj = it.next();
         		previouseVocab.put(obj.getKey(), obj.getValue());
-        		trayIcon.displayMessage("Vocab No "+counter.incrementAndGet(), "            "+obj.getKey().toString()+"                 ", MessageType.INFO);
+        		trayIcon.displayMessage("Vocab No "+counter.incrementAndGet(), "      :      "+obj.getKey().toString()+"                 ", MessageType.INFO);
             	try {
     				Thread.sleep(1800000);
     			} catch (InterruptedException e1) {
@@ -148,11 +151,18 @@ public class VocabNotificationApp {
          
         exitItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+            	trayIcon.displayMessage("Vocab No "+counter.get(), "     :      "+obj.getKey().toString()+"                 ", MessageType.INFO);
+            }
+        });
+        
+        exitItem.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
                 tray.remove(trayIcon);
                 System.out.println("Vocab Counter was "+counter.get());
                 System.exit(0);
             }
         });
+
         
         skip_lot.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -191,7 +201,7 @@ public class VocabNotificationApp {
             	if(it.hasNext()) {
             		obj = it.next();
             		previouseVocab.put(obj.getKey(), obj.getValue());
-            		trayIcon.displayMessage("Vocab No "+counter.incrementAndGet(), "            "+obj.getKey().toString()+"                 ", MessageType.INFO);
+            		trayIcon.displayMessage("Vocab No "+counter.incrementAndGet(), "    :      "+obj.getKey().toString()+"                 ", MessageType.INFO);
             	}
             }
         });
