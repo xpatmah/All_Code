@@ -108,11 +108,12 @@ public class VocabNotificationApp {
         popup.addSeparator();
         popup.add(aboutItem);
         popup.addSeparator();
-        popup.add(exitItem);
-        popup.addSeparator();
         popup.add(previouseVocabs);
         popup.addSeparator();
         popup.add(skip_lot);
+        popup.addSeparator();
+        popup.add(exitItem);
+        
          
         trayIcon.setPopupMenu(popup);
          
@@ -178,7 +179,7 @@ public class VocabNotificationApp {
                 		JScrollPane.HORIZONTAL_SCROLLBAR_ALWAYS);
                 StringBuilder builder = new StringBuilder();
                 previouseVocab.entrySet().stream().forEach(ex -> builder.append(ex.getKey()+" : "+ ex.getValue()+"\n"+
-                "---------------------------------------------------------------"+"\n"));
+                "------------------------------------------------------"+"\n"));
                 textArea.setText(builder.toString());
                 frame.add(sampleScrollPane); 
                 frame.setVisible(true);
