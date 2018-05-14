@@ -8,12 +8,12 @@ Spring Boot Quick Start 5 Hrs
 *Junit/Mokito 3 hr
 *Apache Maven 4.5 hours
 *Spring Security  6 Hrs
-*Spring Cloud(MicroServices) 4.5 hours
-
-Spring MVC 31 Hrs
 *Spring Integration and Batch Developers 12 Hrs
+*Spring Cloud(MicroServices) 4.5 hours
 *Docker 3.5 
 *PostMan/Swagger 1 hr
+
+Spring MVC 31 Hrs
 Java Web Services Part 1 13
 Java Web Services Part 2 4.5
 SOAP Web Services 4.5 
