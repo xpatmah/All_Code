@@ -20,8 +20,8 @@ public class RabbitMqDemoApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		// TODO Auto-generated method stub
-		rabbitTemplate.convertAndSend("ezhire-mq" , "wffgqufgqefq");
+		// TODO Auto-generated method stub 
+		rabbitTemplate.convertAndSend("TestExchange","routing" ,"Hi Hello RabbitMq");
 		
 	}
 }

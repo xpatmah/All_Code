@@ -3,13 +3,13 @@ Spring AOP
 *Spring Data 13 hrs
 Spring Boot 11 hrs
 Spring Boot Quick Start 5 Hrs
-*RabbitMQ 2.5 hrs
+RabbitMQ 2.5 hrs
 *WebSockets 3.5 hrs
-*Junit/Mokito 3 hr
-*Apache Maven 4.5 hours
 *Spring Security  6 Hrs
 *Spring Integration and Batch Developers 12 Hrs
 *Spring Cloud(MicroServices) 4.5 hours
+*Junit/Mokito 3 hr
+*Apache Maven 4.5 hours
 *Docker 3.5 
 *PostMan/Swagger 1 hr
 
