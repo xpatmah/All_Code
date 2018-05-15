@@ -150,6 +150,18 @@ public class VocabNotificationApp {
         	}
         	System.exit(0);
         }).start();
+        
+        new Thread(() ->  {
+        	while(true) {
+        		try {
+    				Thread.sleep(300000);
+    			} catch (InterruptedException e1) {
+    				// TODO Auto-generated catch block
+    				e1.printStackTrace();
+    			}
+        		trayIcon.displayMessage("Vocab No "+counter.get(), "            "+obj.getKey().toString()+"                 ", MessageType.INFO);
+        	}
+        }).start();
          
         aboutItem.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
