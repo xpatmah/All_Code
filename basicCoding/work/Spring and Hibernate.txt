@@ -1,11 +1,11 @@
 Spring Core 
 Spring AOP
-*Spring Data 13 hrs
 Spring Boot 11 hrs
 Spring Boot Quick Start 5 Hrs
+*Spring Data 13 hrs
 RabbitMQ 2.5 hrs
 WebSockets 2.5 hrs Section 4 and 5
-*Spring Cloud(MicroServices) 4.5 hours
+Spring Cloud(MicroServices) 4.5 hours
 *Spring Security  6 Hrs
 *Spring Integration and Batch Developers 12 Hrs
 *Junit/Mokito 3 hr
