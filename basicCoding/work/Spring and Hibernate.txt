@@ -1,5 +1,5 @@
-Spring Core 
-Spring AOP
+Spring Core 5 Hrs
+Spring AOP  5 Hrs
 Spring Boot 11 hrs
 Spring Boot Quick Start 5 Hrs
 *Spring Data 13 hrs
@@ -13,13 +13,13 @@ Spring Cloud(MicroServices) 4.5 hours
 *Docker 3.5 
 *PostMan/Swagger 1 hr
 
-Spring MVC 31 Hrs
+Spring MVC 6 Hrs
 Java Web Services Part 1 13
 Java Web Services Part 2 4.5
 SOAP Web Services 4.5 
 REST Web Services 11.5
 
-Web 135 Hrs
+Web 120 Hrs
 
 
 Imp*
