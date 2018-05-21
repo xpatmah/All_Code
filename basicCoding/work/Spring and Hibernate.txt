@@ -29,6 +29,8 @@ Sql part 2 5 hours
 Design Patterns 10.5 hours
 Collection 3.5 
 Java Memory Management 3 hrs
+Linux Shell Scripting 11 hrs
+Complete Linux course 14 hrs
 Java 8 4.5 hours
 Java 9 7.5 hours 
 Core Java 16 hours
