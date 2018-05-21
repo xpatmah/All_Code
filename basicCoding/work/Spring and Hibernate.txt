@@ -12,7 +12,9 @@ Spring Cloud(MicroServices) 4.5 hours
 *Apache Maven 4.5 hours
 *Docker 3.5 
 *PostMan/Swagger 1 hr
-
+Collection 3.5 
+Design Patterns 10.5 hours
+Core Java 16 hours
 Spring MVC 6 Hrs
 Java Web Services Part 1 13
 Java Web Services Part 2 4.5
@@ -29,11 +31,8 @@ AI
 
 Sql 18.5 hours 
 Sql part 2 5 hours
-Collection 3.5 
-Design Patterns 10.5 hours
 Java 8 4.5 hours
 Java 9 7.5 hours 
-Core Java 16 hours
 Multithreading 7 Hrs
 
 

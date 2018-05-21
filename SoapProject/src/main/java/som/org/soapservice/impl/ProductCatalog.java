@@ -2,7 +2,6 @@ package som.org.soapservice.impl;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.jws.WebMethod;
 import javax.jws.WebService;
 
@@ -17,7 +16,6 @@ public class ProductCatalog {
 		productList.add("Video Game");
 		productList.add("Cricket Bat");
 		productList.add("Hockey");
-		
 		return productList;
 	
 	}
@@ -33,9 +31,7 @@ public class ProductCatalog {
 	
 	@WebMethod
 	public Product getProduct(String name , String owner , String price){
-		
 		return new Product(name, owner, price);
-		
 	}
 	
 }
