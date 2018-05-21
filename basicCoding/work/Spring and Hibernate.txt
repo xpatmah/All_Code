@@ -6,21 +6,17 @@ Spring Boot Quick Start 5 Hrs
 RabbitMQ 2.5 hrs
 WebSockets 2.5 hrs Section 4 and 5
 Spring Cloud(MicroServices) 4.5 hours
+Master Microservices with Spring Boot and Spring Cloud 13 Hrs
 *Spring Security  6 Hrs
-*Spring Integration and Batch Developers 12 Hrs
-*Junit/Mokito 3 hr
-*Apache Maven 4.5 hours
 *Docker 3.5 
-*PostMan/Swagger 1 hr
-Collection 3.5 
-Design Patterns 10.5 hours
+*Spring Integration and Batch Developers 12 Hrs
 Spring MVC 6 Hrs
 Java Web Services Part 1 13
 Java Web Services Part 2 4.5
 SOAP Web Services 4.5 
 REST Web Services 11.5
 
-Web 120 Hrs
+Web 122.5 Hrs
 
 
 Imp*
@@ -30,12 +26,18 @@ AI
 
 Sql 18.5 hours 
 Sql part 2 5 hours
+Design Patterns 10.5 hours
+Collection 3.5 
+Java Memory Management 3 hrs
 Java 8 4.5 hours
 Java 9 7.5 hours 
 Core Java 16 hours
+*Junit/Mokito 3 hr
+*Apache Maven 4.5 hours
+*PostMan/Swagger 1 hr
+
+
 Multithreading 7 Hrs
-
-
 PUZZLE and Maths
 Data Structures and Algorithms Through Java In Depth 10.5
 Advanced Data Structures and Algorithms in Java 7.5

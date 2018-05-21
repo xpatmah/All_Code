@@ -22,6 +22,7 @@ public class SumTest {
 		sum = new Sum();
 		System.out.println("Running for the first time");
 	}
+	
 	@Ignore(value="welwmewr")
 	@Test
 	public void sumofTwo(){
