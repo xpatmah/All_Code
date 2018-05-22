@@ -9,6 +9,8 @@ Spring Cloud(MicroServices) 4.5 hours
 Master Microservices with Spring Boot and Spring Cloud 13 Hrs
 *Spring Security  6 Hrs
 *Docker 3.5 
+*Apache Maven 4.5 hours
+*PostMan/Swagger 1 hr
 *Spring Integration and Batch Developers 12 Hrs
 Spring MVC 6 Hrs
 Java Web Services Part 1 13
@@ -35,8 +37,6 @@ Java 8 4.5 hours
 Java 9 7.5 hours 
 Core Java 16 hours
 *Junit/Mokito 3 hr
-*Apache Maven 4.5 hours
-*PostMan/Swagger 1 hr
 
 
 Multithreading 7 Hrs
