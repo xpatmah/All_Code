@@ -3,14 +3,6 @@ Spring AOP  5 Hrs
 
 *Spring Data 13 hrs
 
-RabbitMQ 2.5 hrs
-WebSockets 2.5 hrs Section 4 and 5
-
-Spring Cloud(MicroServices) 4.5 hours
-Master Microservices with Spring Boot and Spring Cloud 13 Hrs
-*Spring Security  6 Hrs
-*Spring Integration and Batch Developers 12 Hrs
-
 Spring MVC 6 Hrs
 Spring Boot 11 hrs
 Spring Boot Quick Start 5 Hrs
@@ -18,6 +10,14 @@ Java Web Services Part 1 13
 Java Web Services Part 2 4.5
 SOAP Web Services 4.5 
 REST Web Services 11.5
+
+RabbitMQ 2.5 hrs
+WebSockets 2.5 hrs Section 4 and 5
+
+Spring Cloud(MicroServices) 4.5 hours
+Master Microservices with Spring Boot and Spring Cloud 13 Hrs
+*Spring Security  6 Hrs
+*Spring Integration and Batch Developers 12 Hrs
 
 *Docker 3.5 
 *Apache Maven 4.5 hours

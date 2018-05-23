@@ -10,8 +10,9 @@ public class SwimJavaConfigApp {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(ConfigurationSpring.class);
-		
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
+		context.register(ConfigurationSpring.class);
+		context.refresh();
 		SwimCoach coach = context.getBean("getCoach", SwimCoach.class);
 		
 		System.out.println(coach.getDailyWorkOut());
