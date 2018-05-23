@@ -1,3 +1,8 @@
+Spring Core 5 Hrs
+Spring AOP  5 Hrs
+
+*Spring Data with Hibernate and JPA 13 hrs
+
 Spring MVC 6 Hrs
 Spring Boot 11 hrs
 Spring Boot Quick Start 5 Hrs
@@ -18,7 +23,7 @@ Master Microservices with Spring Boot and Spring Cloud 13 Hrs
 *Apache Maven 4.5 hours
 *PostMan/Swagger 1 hr
 
-Web 100 Hrs
+Web 123 Hrs
 
 
 Imp*
@@ -26,9 +31,8 @@ DSA
 CLOUD
 AI
 
-Spring Core 5 Hrs
-Spring AOP  5 Hrs
-*Spring Data with Hibernate and JPA 13 hrs
+Spring 10 Hrs
+Hibernate 9 Hrs
 Sql 18.5 hours 
 Sql part 2 5 hours
 Design Patterns 10.5 hours
@@ -41,7 +45,7 @@ Java 9 7.5 hours
 Core Java 16 hours
 *Junit/Mokito 3 hr
 
-117 Hrs
+110 Hrs
 
 
 Multithreading 7 Hrs
