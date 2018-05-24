@@ -1,7 +1,7 @@
 Spring Core 5 Hrs
 Spring AOP  5 Hrs
 
-*Spring Data 13 hrs
+*Spring Data with Hibernate and JPA 13 hrs
 
 Spring MVC 6 Hrs
 Spring Boot 11 hrs
@@ -19,11 +19,16 @@ Master Microservices with Spring Boot and Spring Cloud 13 Hrs
 *Spring Security  6 Hrs
 *Spring Integration and Batch Developers 12 Hrs
 
+Sql 18.5 hours 
+Sql part 2 5 hours
+Linux Shell Scripting 11 hrs
+Complete Linux course 14 hrs
+
 *Docker 3.5 
 *Apache Maven 4.5 hours
 *PostMan/Swagger 1 hr
 
-Web 122.5 Hrs
+Web 169 Hrs
 
 
 Imp*
@@ -31,17 +36,19 @@ DSA
 CLOUD
 AI
 
-Sql 18.5 hours 
-Sql part 2 5 hours
+Spring 10 Hrs
+Hibernate 9 Hrs
+SQL The New Bosten 4.5 Hrs
 Design Patterns 10.5 hours
 Collection 3.5 
 Java Memory Management 3 hrs
-Linux Shell Scripting 11 hrs
-Complete Linux course 14 hrs
+Unix Scripting 10 Hrs
 Java 8 4.5 hours
 Java 9 7.5 hours 
 Core Java 16 hours
 *Junit/Mokito 3 hr
+
+84 Hrs
 
 
 Multithreading 7 Hrs
