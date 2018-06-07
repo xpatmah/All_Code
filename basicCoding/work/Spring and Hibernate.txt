@@ -28,7 +28,15 @@ Complete Linux course 14 hrs
 *Apache Maven 4.5 hours
 *PostMan/Swagger 1 hr
 
-Web 169 Hrs
+
+Java Script 13 Hrs 
+Type Script  5 Hrs
+HTML/CSS/JQuery/BootStrap Derek Banas 3.5 Hrs
+Angular JS 31 Hrs
+Node 13 Hrs
+
+
+Web 231 Hrs
 
 
 Imp*
