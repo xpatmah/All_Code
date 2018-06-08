@@ -30,13 +30,10 @@ Complete Linux course 14 hrs
 
 
 Java Script 13 Hrs 
-Type Script  5 Hrs
-HTML/CSS/JQuery/BootStrap Derek Banas 3.5 Hrs
-Angular JS 31 Hrs
-Node 13 Hrs
+HTML/CSS/JQuery/BootStrap Udemy 12 Hrs
 
 
-Web 231 Hrs
+Web 194 Hrs
 
 
 Imp*
