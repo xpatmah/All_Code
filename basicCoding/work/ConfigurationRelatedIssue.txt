@@ -1,3 +1,17 @@
+To check the cookies 
+
+telnet www.google.com 80 
+Trying 172.217.163.196...
+Connected to www.google.com.
+Escape character is '^]'.
+GET / HTTP/1.0
+Host: www.google.com
+
+curl -I www.google.com
+
+
+
+
 Eclipse Related Issue
 
 How to change the module of Component 

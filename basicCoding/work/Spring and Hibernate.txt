@@ -28,7 +28,12 @@ Complete Linux course 14 hrs
 *Apache Maven 4.5 hours
 *PostMan/Swagger 1 hr
 
-Web 169 Hrs
+
+Java Script 13 Hrs 
+HTML/CSS/JQuery/BootStrap Udemy 12 Hrs
+
+
+Web 194 Hrs
 
 
 Imp*
