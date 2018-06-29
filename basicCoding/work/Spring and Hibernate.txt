@@ -28,11 +28,6 @@ Complete Linux course 14 hrs
 *Apache Maven 4.5 hours
 *PostMan/Swagger 1 hr
 
-
-Java Script 13 Hrs 
-HTML/CSS/JQuery/BootStrap Udemy 12 Hrs
-
-
 Web 194 Hrs
 
 
@@ -43,21 +38,21 @@ AI
 
 Spring 10 Hrs
 Hibernate 9 Hrs
-SQL The New Bosten 4.5 Hrs
+SQL
 Design Patterns 10.5 hours
 Collection 3.5 
 Java Memory Management 3 hrs
-Unix Scripting 10 Hrs
 Java 8 4.5 hours
 Java 9 7.5 hours 
 Core Java 16 hours
 *Junit/Mokito 3 hr
+Multithreading 7 Hrs
 System Design Questions
 
 84 Hrs
 
 
-Multithreading 7 Hrs
+
 PUZZLE and Maths
 Data Structures and Algorithms Through Java In Depth 10.5
 Advanced Data Structures and Algorithms in Java 7.5
