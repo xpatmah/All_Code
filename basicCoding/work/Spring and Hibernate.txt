@@ -36,8 +36,7 @@ DSA
 CLOUD
 AI
 
-Spring 10 Hrs
-Hibernate 9 Hrs
+
 SQL
 Design Patterns 10.5 hours
 Collection 3.5 
