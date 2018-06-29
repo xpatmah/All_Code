@@ -46,6 +46,7 @@ Java 9 7.5 hours
 Core Java 16 hours
 *Junit/Mokito 3 hr
 Multithreading 7 Hrs
+Linux Shell Scripting
 System Design Questions
 
 84 Hrs
