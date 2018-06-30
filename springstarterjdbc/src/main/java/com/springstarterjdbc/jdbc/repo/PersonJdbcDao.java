@@ -2,6 +2,8 @@ package com.springstarterjdbc.jdbc.repo;
 
 import java.util.List;
 
+import javax.persistence.EntityManager;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -14,6 +16,9 @@ public class PersonJdbcDao {
 	
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
+	
+	@Autowired
+	private EntityManager manager;
 	
 	// lets do the select * 
 	
