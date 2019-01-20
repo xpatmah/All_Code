@@ -6,11 +6,14 @@
 
 <body>
     <h1></h1>
-	<form action="processForms" method="GET">
+	<form action="showDevices" method="GET">
 	
-		<input type="text" name="studentName"
-			placeholder="What's your name?" />
-			
+		<input type="text" name="user_name"
+			placeholder="User Name" />
+		<br>	
+		<input type="password" name="pwd"
+		placeholder="Password" >
+		<br>
 		<input type="submit" />
 			
 	</form>

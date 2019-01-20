@@ -12,7 +12,7 @@ import com.org.spring.mvc.controller.domain.Student;
 public class SchoolController {
 
 	
-	@RequestMapping("/ 	")
+	@RequestMapping("/")
 	public String getModel(Model model) {
 		
 		Student student = new Student();
