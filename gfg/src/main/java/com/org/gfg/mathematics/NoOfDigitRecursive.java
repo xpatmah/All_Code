@@ -1,4 +1,4 @@
-package geeksforgeeks.org.java.mathematics;
+package com.org.gfg.mathematics;
 
 public class NoOfDigitRecursive {
 
