@@ -1,10 +1,8 @@
 package spring.state.machine.configuration;
 
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
 import org.springframework.statemachine.StateContext;
 import org.springframework.statemachine.action.Action;
-import org.springframework.statemachine.config.EnableStateMachine;
 import org.springframework.statemachine.config.EnumStateMachineConfigurerAdapter;
 import org.springframework.statemachine.config.builders.StateMachineConfigurationConfigurer;
 import org.springframework.statemachine.config.builders.StateMachineStateConfigurer;
@@ -15,8 +13,8 @@ import spring.state.machine.listener.PosStateMachineListener;
 import spring.state.machine.statemachinedomain.MEvents;
 import spring.state.machine.statemachinedomain.MStates;
 
-@Configuration
-@EnableStateMachine
+//@Configuration
+//@EnableStateMachine
 public class StateMachineForkConfig extends EnumStateMachineConfigurerAdapter<MStates, MEvents> {
 
 	@Override
