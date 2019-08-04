@@ -1,4 +1,4 @@
-package geeksforgeeks.org.java.mathematics;
+package spring.state.machine;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
