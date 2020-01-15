@@ -7,14 +7,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JUnitTestCases" />
-        <module name="hibernate" />
-        <module name="junit" />
-        <module name="mvcappSpring" />
-        <module name="designpatterns" />
-        <module name="aspectj" />
-        <module name="multithreading" />
-        <module name="javastreams" />
-        <module name="mockserver" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

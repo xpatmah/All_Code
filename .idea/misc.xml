@@ -7,14 +7,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/aspectj/pom.xml" />
-        <option value="$PROJECT_DIR$/junit/pom.xml" />
-        <option value="$PROJECT_DIR$/mockserver/pom.xml" />
-        <option value="$PROJECT_DIR$/designpatterns/pom.xml" />
-        <option value="$PROJECT_DIR$/hibernate/pom.xml" />
-        <option value="$PROJECT_DIR$/javastreams/pom.xml" />
-        <option value="$PROJECT_DIR$/multithreading/pom.xml" />
-        <option value="$PROJECT_DIR$/mvcappSpring/pom.xml" />
       </list>
     </option>
   </component>

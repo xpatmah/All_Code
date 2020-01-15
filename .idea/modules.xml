@@ -3,14 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/junit/JUnitTestCases.iml" filepath="$PROJECT_DIR$/junit/JUnitTestCases.iml" />
-      <module fileurl="file://$PROJECT_DIR$/aspectj/aspectj.iml" filepath="$PROJECT_DIR$/aspectj/aspectj.iml" />
-      <module fileurl="file://$PROJECT_DIR$/designpatterns/designpatterns.iml" filepath="$PROJECT_DIR$/designpatterns/designpatterns.iml" />
-      <module fileurl="file://$PROJECT_DIR$/hibernate/hibernate.iml" filepath="$PROJECT_DIR$/hibernate/hibernate.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javastreams/javastreams.iml" filepath="$PROJECT_DIR$/javastreams/javastreams.iml" />
-      <module fileurl="file://$PROJECT_DIR$/junit/junit.iml" filepath="$PROJECT_DIR$/junit/junit.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mockserver/mockserver.iml" filepath="$PROJECT_DIR$/mockserver/mockserver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/multithreading/multithreading.iml" filepath="$PROJECT_DIR$/multithreading/multithreading.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mvcappSpring/mvcappSpring.iml" filepath="$PROJECT_DIR$/mvcappSpring/mvcappSpring.iml" />
     </modules>
   </component>
 </project>
