@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/junit/JUnitTestCases.iml" filepath="$PROJECT_DIR$/junit/JUnitTestCases.iml" />
-      <module fileurl="file://$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" filepath="$PROJECT_DIR$/spring-boot-demo/spring-boot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-projects-demo/spring-practice-demo/spring-practice-demo.iml" filepath="$PROJECT_DIR$/spring-projects-demo/spring-practice-demo/spring-practice-demo.iml" />
     </modules>
   </component>
 </project>

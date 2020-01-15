@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JUnitTestCases" />
-        <module name="spring-boot-demo" />
+        <module name="spring-practice-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,12 +25,17 @@
       <module name="mockserver" target="1.5" />
       <module name="multithreading" target="1.8" />
       <module name="mvcappSpring" target="1.8" />
+      <module name="rabbit-mq-demo" target="1.8" />
       <module name="spring-boot-demo" target="1.8" />
+      <module name="spring-boot-server" target="1.5" />
+      <module name="spring-practice-demo" target="1.7" />
       <module name="untitled" target="1.7" />
+      <module name="websocket" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="rabbit-mq-demo" options="-parameters" />
       <module name="spring-boot-demo" options="-parameters" />
     </option>
   </component>
