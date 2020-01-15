@@ -4,11 +4,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>org.com.interview.practice</groupId>
-	<artifactId>practicejar</artifactId>
+	<artifactId>vocablearner</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>practicejar</name>
+	<name>vocablearner</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>
