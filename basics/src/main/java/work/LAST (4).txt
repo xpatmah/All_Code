@@ -1,0 +1,38 @@
+DataStructure, Algorithms and Design ,Distributed Algorithms and Parallel Alogrithms 
+Generics & Collections/
+Threads
+Design Pattern(+J2EE Pattern)/UML/OOPS
+JDBC/Sql/PLSql/Procedure
+JUnit
+
+
+======================
+Java-Refection
+Web Services
+Spring
+Shell Script
+Python
+=====================
+
+Socket Programming/Web Socket
+JMS/JMX
+SNMP
+HTML/CSS/Java Scripts
+JSP and Servlet/Hibernate
+Build Configuration/Apache logger
+Android
+
+Core Java (assertion,inner Class,annotation,Enums,Cloaning, java 7 & 8,Serialization,File I/O,RMI)
+
+ENGLISH/Management
+Networking/Finance Domain
+Cloud Computing/Maths
+==================================================
+Shell Script
+Design Pattern(+J2EE Pattern)/
+Java-Refection/
+UML/OOPS
+Spring
+JAVA Networking
+Code Refectoring
+

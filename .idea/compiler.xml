@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JUnitTestCases" />
+        <module name="hibernate" />
+        <module name="junit" />
+        <module name="mvcappSpring" />
+        <module name="designpatterns" />
+        <module name="aspectj" />
+        <module name="multithreading" />
+        <module name="javastreams" />
+        <module name="mockserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="aspectj" target="1.8" />
+      <module name="basics" target="1.8" />
+      <module name="demo" target="1.8" />
+      <module name="designpatterns" target="1.8" />
+      <module name="dynamicprogramming" target="1.8" />
+      <module name="gfg" target="1.5" />
+      <module name="hibernate" target="1.5" />
+      <module name="hibernet" target="1.5" />
+      <module name="javastreams" target="1.8" />
+      <module name="junit" target="1.5" />
+      <module name="JUnitTestCases" target="1.5" />
+      <module name="mockserver" target="1.5" />
+      <module name="multithreading" target="1.8" />
+      <module name="mvcappSpring" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

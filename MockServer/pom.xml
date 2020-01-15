@@ -3,11 +3,11 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.sample.app</groupId>
-	<artifactId>mokito</artifactId>
+	<artifactId>mockserver</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>mokito</name>
+	<name>mockserver</name>
 	<url>http://maven.apache.org</url>
 
 	<properties>

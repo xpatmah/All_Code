@@ -1,0 +1,37 @@
+<!-- <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script> -->
+
+<!-- <link rel="stylesheet" href="https://jqueryui.com/resources/demos/style.css"> -->
+
+
+
+/*       $.ajax({
+            			url : 'getdata',
+            			type : 'POST',
+            			dataType : 'json',
+            			data : {
+            				INFO : "SLOTS",
+            			},
+            			success : function(response) {
+            				//alert(response.EMPTYSLOTS);
+            				data = response.EMPTYSLOTS;
+            				if(data != "XXXX"){
+            					$("#addCard").attr("disabled", false);
+            					$("#addCard").css("background-color","gray");
+            				}else{
+            					$("#addCard").attr("disabled", true);
+            					$("#addCard").css("background-color","black");
+            				}
+            			    $("#addFacility").attr("disabled", true);
+             				$("#addFacility").css("background-color","black");
+             				$("#editFacility").attr("disabled", true);
+              				$("#editFacility").css("background-color","black");
+              				$("#deleteFacility").attr("disabled", true);
+              				$("#deleteFacility").css("background-color","black");
+              				$("#editCard").attr("disabled", true);
+            				$("#editCard").css("background-color","black");
+            				$("#deleteCard").attr("disabled", true);
+            				$("#deleteCard").css("background-color","black");
+            			}
+         		    }); */
