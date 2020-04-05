@@ -1,6 +1,6 @@
 package com.org.problemsolving.dp.first;
 
-import com.org.domain.first.Area;
+import com.org.domain.collection.Area;
 
 import java.util.HashMap;
 import java.util.Map;

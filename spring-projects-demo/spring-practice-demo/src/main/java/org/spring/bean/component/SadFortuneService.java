@@ -7,8 +7,8 @@ import org.spring.interfaces.FortuneService;
 @Component("sadFortuneService")
 public class SadFortuneService implements FortuneService {
 
-	public String getLuckyDay() {
-		return "Today Is not Your Lucky Day";
-	}
+    public String getLuckyDay() {
+        return "Today Is not Your Lucky Day";
+    }
 
 }

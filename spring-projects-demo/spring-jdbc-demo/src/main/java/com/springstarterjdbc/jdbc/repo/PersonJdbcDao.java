@@ -13,21 +13,19 @@ import com.springstarterjdbc.jdbc.entity.Person;
 
 @Repository
 public class PersonJdbcDao {
-	
-	@Autowired
-	private JdbcTemplate jdbcTemplate;
-	
-	@Autowired
-	private EntityManager manager;
-	
-	// lets do the select * 
-	
-	public List<Person> findall(){
-		return jdbcTemplate.query("select * from person", new BeanPropertyRowMapper(Person.class));
-		
-	}
-	
-	
-	
-	
+
+    @Autowired
+    private JdbcTemplate jdbcTemplate;
+
+    @Autowired
+    private EntityManager manager;
+
+    // lets do the select *
+
+    public List<Person> findall() {
+        return jdbcTemplate.query("select * from person", new BeanPropertyRowMapper(Person.class));
+
+    }
+
+
 }

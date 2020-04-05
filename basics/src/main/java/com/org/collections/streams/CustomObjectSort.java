@@ -1,6 +1,6 @@
 package com.org.collections.streams;
 
-import com.org.domain.first.Book;
+import com.org.domain.collection.Book;
 
 import java.util.ArrayList;
 import java.util.Collections;

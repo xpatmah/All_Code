@@ -14,22 +14,22 @@ import com.org.soap.service.endpoints.SoapServiceEndPoints;
 @Configuration
 public class WebConfigClass {
 
-	@Autowired
-	private Bus bus;
-	
-	@Bean
-	public Endpoint getPoint() {
-		 Endpoint endPointImpl = new EndpointImpl(bus, new SoapServiceEndPoints());
-		 endPointImpl.publish("/soapws");
-		 return endPointImpl;
-	}
-	
-	@Bean
-	public Endpoint getCustomerOrder() {
-		 Endpoint endPointImpl = new EndpointImpl(bus, new CustomerOrdersImpl());
-		 endPointImpl.publish("/customerorderservice");
-		 return endPointImpl;
-	}
-	
-	
+    @Autowired
+    private Bus bus;
+
+    @Bean
+    public Endpoint getPoint() {
+        Endpoint endPointImpl = new EndpointImpl(bus, new SoapServiceEndPoints());
+        endPointImpl.publish("/soapws");
+        return endPointImpl;
+    }
+
+    @Bean
+    public Endpoint getCustomerOrder() {
+        Endpoint endPointImpl = new EndpointImpl(bus, new CustomerOrdersImpl());
+        endPointImpl.publish("/customerorderservice");
+        return endPointImpl;
+    }
+
+
 }

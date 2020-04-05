@@ -1,5 +1,7 @@
 package com.org.collections;
 
+import com.org.domain.collection.Person;
+
 public class Student implements Comparable<Student>{
 
 	int id;

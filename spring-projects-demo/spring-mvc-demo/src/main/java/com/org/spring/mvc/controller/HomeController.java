@@ -18,74 +18,74 @@ import com.org.spring.mvc.service.DeviceService;
 @Controller
 public class HomeController {
 
-	
-	private DeviceService deviceService;
-	
-	@Autowired(required=true)
-	@Qualifier(value="deviceService")
-	public void setDeviceService(DeviceService ds){
-		this.deviceService = ds;
-	}
 
-	@RequestMapping("/signin")
-	public String getSignPage() {
-		return "signin";
-	}
+    private DeviceService deviceService;
 
-	@RequestMapping(value = "/devices", method = RequestMethod.GET)
-	public String listDevices(Model model) {
-		model.addAttribute("devices", new Device());
-		model.addAttribute("listPersons", this.deviceService.listDevices());
-		return "deviceslist";
-	}
+    @Autowired(required = true)
+    @Qualifier(value = "deviceService")
+    public void setDeviceService(DeviceService ds) {
+        this.deviceService = ds;
+    }
 
-	@RequestMapping("/showDevices")
-	public String getName(HttpServletRequest request, Model model) {
+    @RequestMapping("/signin")
+    public String getSignPage() {
+        return "signin";
+    }
 
-		String userName = request.getParameter("user_name");
+    @RequestMapping(value = "/devices", method = RequestMethod.GET)
+    public String listDevices(Model model) {
+        model.addAttribute("devices", new Device());
+        model.addAttribute("listPersons", this.deviceService.listDevices());
+        return "deviceslist";
+    }
 
-		String password = request.getParameter("pwd");
+    @RequestMapping("/showDevices")
+    public String getName(HttpServletRequest request, Model model) {
 
-	//	userName = userName.toUpperCase();
+        String userName = request.getParameter("user_name");
 
-		model.addAttribute("device" ,new Device());
-		model.addAttribute("listdevices", this.deviceService.listDevices());
-		return "showAllDevices";
-	}
+        String password = request.getParameter("pwd");
 
-	@RequestMapping(value = "/device/add", method = RequestMethod.POST)
-	public String addDevice(@ModelAttribute("device") Device d) {
+        //	userName = userName.toUpperCase();
 
-		if (true) {
-			this.deviceService.addDevice(d);
-		} /*
-			 * else { // existing person, call update this.deviceService.updateDevice(d); }
-			 */
-		return "redirect:/showDevices";
+        model.addAttribute("device", new Device());
+        model.addAttribute("listdevices", this.deviceService.listDevices());
+        return "showAllDevices";
+    }
 
-	}
+    @RequestMapping(value = "/device/add", method = RequestMethod.POST)
+    public String addDevice(@ModelAttribute("device") Device d) {
 
-	@RequestMapping("/remove/{ip}")
-	public String removeDevice(@PathVariable("ip") String ip) {
+        if (true) {
+            this.deviceService.addDevice(d);
+        } /*
+         * else { // existing person, call update this.deviceService.updateDevice(d); }
+         */
+        return "redirect:/showDevices";
 
-		this.deviceService.removeDevice(ip);
-		return "redirect:/showDevices";
-	}
+    }
 
-	@RequestMapping("/edit/{ip}")
-	public String editDevice(@PathVariable("ip") String ip, Model model) {
-		model.addAttribute("device", this.deviceService.getDeviceByIp(ip));
-		model.addAttribute("listdevices", this.deviceService.listDevices());
-		return "device";
-	}
+    @RequestMapping("/remove/{ip}")
+    public String removeDevice(@PathVariable("ip") String ip) {
 
-	@RequestMapping("/postmanRequest")
-	public String getPostmanCall(@RequestParam("studentName") String name, Model model) {
+        this.deviceService.removeDevice(ip);
+        return "redirect:/showDevices";
+    }
 
-		name = name.toUpperCase();
+    @RequestMapping("/edit/{ip}")
+    public String editDevice(@PathVariable("ip") String ip, Model model) {
+        model.addAttribute("device", this.deviceService.getDeviceByIp(ip));
+        model.addAttribute("listdevices", this.deviceService.listDevices());
+        return "device";
+    }
 
-		model.addAttribute("message", "yo" + name);
-		return "process";
-	}
+    @RequestMapping("/postmanRequest")
+    public String getPostmanCall(@RequestParam("studentName") String name, Model model) {
+
+        name = name.toUpperCase();
+
+        model.addAttribute("message", "yo" + name);
+        return "process";
+    }
 
 }

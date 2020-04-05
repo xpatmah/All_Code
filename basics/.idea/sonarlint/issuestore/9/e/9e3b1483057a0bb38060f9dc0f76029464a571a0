@@ -1,0 +1,14 @@
+
+dsquid:S2095'"HUse try-with-resources or close this "FileReader" in a "finally" clause.(ó‹š¥øÿÿÿÿ
+Nsquid:S1135"2Complete the task associated to this TODO comment.(» æžÿÿÿÿÿ
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ŽÀâçþÿÿÿÿ
+O
+squid:S1065"9Replace this use of System.out or System.err by a logger.(õÂÂ¥
+3squid:S16433"Use a StringBuilder instead.(ö€É
+Dsquid:S1481"(Remove this unused "key" local variable.(ûëòûûÿÿÿÿ
+hsquid:S2095("LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(è¿¾“ùÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÞÆ­Ûþÿÿÿÿ
+O
+squid:S106&"9Replace this use of System.out or System.err by a logger.(ßîÝÏ
+Ssquid:S1854"7Remove this useless assignment to local variable "key".(ûëòûûÿÿÿÿ

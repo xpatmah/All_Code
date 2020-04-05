@@ -3,7 +3,7 @@ package com.org.domainhandlerUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.org.domain.first.Trade;
+import com.org.domain.collection.Trade;
 
 /**
  *

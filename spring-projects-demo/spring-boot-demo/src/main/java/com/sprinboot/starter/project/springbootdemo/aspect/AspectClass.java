@@ -16,30 +16,31 @@ import org.springframework.stereotype.Component;
 @Component
 public class AspectClass {
 
-	Map<String , Long> timeOF = new HashMap<>();
-	
-	Map<String , Long> time3 = new HashMap<>();
-	
-	@Pointcut("@annotation(com.sprinboot.starter.project.springbootdemo.aspect.Loggable)")
-	private void loggable() {}
-	
-	
-	@Before("loggable()")
-	public void getExection(JoinPoint jp) {
-		System.out.println(jp.hashCode());	
-	}
-	
-	@After("loggable()")
-	public void getExectionAfter(JoinPoint jp) {
-		System.out.println(jp.hashCode());
-	}
-	
-	private String getName(JoinPoint jp) {
-		MethodSignature sig = (MethodSignature)jp.getSignature();
-		Method method = sig.getMethod();
-		
-		Loggable log  = method.getAnnotation(Loggable.class);
-		return log.value();
-	}
-	
+    Map<String, Long> timeOF = new HashMap<>();
+
+    Map<String, Long> time3 = new HashMap<>();
+
+    @Pointcut("@annotation(com.sprinboot.starter.project.springbootdemo.aspect.Loggable)")
+    private void loggable() {
+    }
+
+
+    @Before("loggable()")
+    public void getExection(JoinPoint jp) {
+        System.out.println(jp.hashCode());
+    }
+
+    @After("loggable()")
+    public void getExectionAfter(JoinPoint jp) {
+        System.out.println(jp.hashCode());
+    }
+
+    private String getName(JoinPoint jp) {
+        MethodSignature sig = (MethodSignature) jp.getSignature();
+        Method method = sig.getMethod();
+
+        Loggable log = method.getAnnotation(Loggable.class);
+        return log.value();
+    }
+
 }

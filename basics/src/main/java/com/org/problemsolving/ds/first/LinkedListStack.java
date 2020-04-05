@@ -1,6 +1,6 @@
 package com.org.problemsolving.ds.first;
 
-import com.org.domain.first.Node;
+import com.org.domain.ds.Node;
 
 public class LinkedListStack<T> {
 

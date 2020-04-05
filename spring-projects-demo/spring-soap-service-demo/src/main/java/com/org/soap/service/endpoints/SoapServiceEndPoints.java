@@ -6,20 +6,19 @@ import javax.jws.WebService;
 import org.apache.cxf.feature.Features;
 
 @WebService
-@Features(features="org.apache.cxf.feature.LoggingFeature")
+@Features(features = "org.apache.cxf.feature.LoggingFeature")
 public class SoapServiceEndPoints {
-	
-	@WebMethod
-	public String getHello() {
-		
-		return "Hello apache CXF";
-	}
-	
-	@WebMethod
-	public Integer getToalSum(int a , int b)
-	{
-		return a+b;
-	}
-	
-	
+
+    @WebMethod
+    public String getHello() {
+
+        return "Hello apache CXF";
+    }
+
+    @WebMethod
+    public Integer getToalSum(int a, int b) {
+        return a + b;
+    }
+
+
 }

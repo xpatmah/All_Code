@@ -1,6 +1,6 @@
 package com.org.collections;
 
-import com.org.domain.first.*;
+import com.org.domain.collection.*;
 
 import java.util.*;
 

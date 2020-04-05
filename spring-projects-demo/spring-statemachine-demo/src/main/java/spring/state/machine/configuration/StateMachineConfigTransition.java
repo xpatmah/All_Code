@@ -17,36 +17,35 @@ import spring.state.machine.statemachinedomain.States;
 //@EnableStateMachine
 public class StateMachineConfigTransition extends EnumStateMachineConfigurerAdapter<States, Events> {
 
-	@Override
-	public void configure(StateMachineConfigurationConfigurer<States, Events> config) throws Exception {
-		config.
-			withConfiguration().
-				autoStartup(true)
-				.listener(new OrderStateMachineListener());
-	}
+    @Override
+    public void configure(StateMachineConfigurationConfigurer<States, Events> config) throws Exception {
+        config.
+                withConfiguration().
+                autoStartup(true)
+                .listener(new OrderStateMachineListener());
+    }
 
-	@Override
-	public void configure(StateMachineStateConfigurer<States, Events> states) throws Exception {
-		states.
-			withStates()
-			.initial(States.S1)
-			.states(EnumSet.allOf(States.class));
-	}
+    @Override
+    public void configure(StateMachineStateConfigurer<States, Events> states) throws Exception {
+        states.
+                withStates()
+                .initial(States.S1)
+                .states(EnumSet.allOf(States.class));
+    }
 
-	@Override
-	public void configure(StateMachineTransitionConfigurer<States, Events> transitions) throws Exception {
-		transitions
-			.withExternal()
-			.source(States.S1).target(States.S2).event(Events.E1)
-			.and()
-			.withInternal()
-			.source(States.S2).event(Events.E2)
-			.and()
-			.withLocal()
-			.source(States.S2).target(States.S3).event(Events.E3);
-		  
-	}
+    @Override
+    public void configure(StateMachineTransitionConfigurer<States, Events> transitions) throws Exception {
+        transitions
+                .withExternal()
+                .source(States.S1).target(States.S2).event(Events.E1)
+                .and()
+                .withInternal()
+                .source(States.S2).event(Events.E2)
+                .and()
+                .withLocal()
+                .source(States.S2).target(States.S3).event(Events.E3);
 
-	
-	
+    }
+
+
 }

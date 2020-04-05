@@ -3,8 +3,8 @@ package com.org.domainhandlerUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.org.domain.first.Employee;
-import com.org.domain.first.Manager;
+import com.org.domain.collection.Employee;
+import com.org.domain.collection.Manager;
 
 
 

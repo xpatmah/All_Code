@@ -1,32 +1,27 @@
 package com.org.problemsolving.dp.first;
 
 public class CoinChangeProblem {
-	
+
 	public static void main(String[] args) {
-		
-		int n = 4;
-		int[] coins = {1,2,3};
-		System.out.println(coinChangeWays(coins, 4, 3));
+		// TODO Auto-generated method stub
+		 	int arr[] = {1, 2, 3};
+	        int m = arr.length;
+	        System.out.println( count(arr, m, 4));
+	        
 	}
-	
-	public static int coinChangeWays(int[] coins , int n , int m){
-		
-		if(n==0) {
+
+	private static int count(int[] arr, int m, int n) {
+		// TODO Auto-generated method stub
+		if(n==0){
 			return 1;
 		}
-		
-		if(n<0) {
+		if(n<0){
 			return 0;
 		}
-		
-		if(m <= 0 && n>0) {
+		if(m<=0 && n >=1){
 			return 0;
 		}
-		
-		return coinChangeWays(coins, n-coins[m-1], m) + coinChangeWays(coins, n, m-1);
-		
+		return count(arr , m-1 , n) + count(arr , m , n-arr[m-1]);
 	}
-	
-	
-	
+
 }

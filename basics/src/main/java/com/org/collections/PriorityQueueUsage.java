@@ -1,5 +1,7 @@
 package com.org.collections;
 
+import com.org.domain.collection.Person;
+
 import java.util.PriorityQueue;
 
 public class PriorityQueueUsage {

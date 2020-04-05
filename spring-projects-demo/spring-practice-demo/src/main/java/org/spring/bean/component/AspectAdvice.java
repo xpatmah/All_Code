@@ -9,11 +9,11 @@ import org.springframework.stereotype.Component;
 @Aspect
 @Component
 public class AspectAdvice {
-	
-	
-	@After("execution(* get*(..))")
-	public void executeAfterAdvice() {
-		System.out.println("This is my first Aspect Application");
-	}
-	
+
+
+    @After("execution(* get*(..))")
+    public void executeAfterAdvice() {
+        System.out.println("This is my first Aspect Application");
+    }
+
 }

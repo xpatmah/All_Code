@@ -1,5 +1,7 @@
 package com.org.collections;
 
+import com.org.domain.collection.Suzuki;
+
 import java.util.ArrayList;
 import java.util.List;
 

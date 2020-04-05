@@ -5,7 +5,7 @@ import java.util.function.IntConsumer;
 import java.util.function.IntPredicate;
 import java.util.stream.Collectors;
 
-import com.org.domain.first.Trade;
+import com.org.domain.collection.Trade;
 import com.org.domainhandlerUtil.TradeUtil;
 
 public class IntegerPredicate {

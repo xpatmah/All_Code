@@ -7,9 +7,9 @@ import org.spring.interfaces.IShape;
 @Component("rectangle")
 public class Rectangle implements IShape {
 
-	public void draw() {
-		// TODO Auto-generated method stub
-		System.out.println("The Spring Context has been drawn");
-	}
+    public void draw() {
+        // TODO Auto-generated method stub
+        System.out.println("The Spring Context has been drawn");
+    }
 
 }

@@ -1,5 +1,7 @@
 package com.org.collections;
 
+import com.org.domain.collection.Person;
+
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;

@@ -1,7 +1,7 @@
 package com.org.collections;
 
-import com.org.domain.first.Honda;
-import com.org.domain.first.MoterCycle;
+import com.org.domain.collection.Honda;
+import com.org.domain.collection.MoterCycle;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

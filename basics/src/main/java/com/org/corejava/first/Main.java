@@ -1,6 +1,7 @@
 package com.org.corejava.first;
 
-import com.org.domain.first.Fruit;
+import com.org.domain.collection.Audi;
+import com.org.domain.collection.Fruit;
 
 import java.lang.reflect.Method;
 
@@ -13,7 +14,7 @@ public class Main {
                   for(Method m : fruit.getDeclaredMethods()){
                 	  System.out.println(m.toString());
                   }
-		
+
                 Class<?> car =  Audi.class;
                   
                   for(Method m : car.getDeclaredMethods()){

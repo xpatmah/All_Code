@@ -3,7 +3,7 @@ package com.org.collections.streams;
 import java.util.function.Consumer;
 import java.util.function.Predicate;
 
-import com.org.domain.first.Employee;
+import com.org.domain.collection.Employee;
 
 public class PredicateTest {
 

@@ -12,16 +12,16 @@ import com.sprinboot.starter.project.springbootdemo.bean.Person;
 @Repository
 public class PersonJdbcDao {
 
-	@Autowired
-	JdbcTemplate jdbcTemplate;
-	
-	// Select * from person
-	public List<Person> findAll(){
-	  return jdbcTemplate.query("select * from person", new BeanPropertyRowMapper<Person>(Person.class));
-	}
-	
-	public Person findById(int id) {
-		return jdbcTemplate.queryForObject("select * from person where id =?", new Object[]{id},new BeanPropertyRowMapper<Person>(Person.class));
-	}
-	
+    @Autowired
+    JdbcTemplate jdbcTemplate;
+
+    // Select * from person
+    public List<Person> findAll() {
+        return jdbcTemplate.query("select * from person", new BeanPropertyRowMapper<Person>(Person.class));
+    }
+
+    public Person findById(int id) {
+        return jdbcTemplate.queryForObject("select * from person where id =?", new Object[]{id}, new BeanPropertyRowMapper<Person>(Person.class));
+    }
+
 }

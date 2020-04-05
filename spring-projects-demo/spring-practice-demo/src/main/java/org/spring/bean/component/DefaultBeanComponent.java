@@ -7,9 +7,9 @@ import org.spring.interfaces.IShape;
 @Component
 public class DefaultBeanComponent implements IShape {
 
-	public void draw() {
-		// TODO Auto-generated method stub
-		System.out.println("This is the default bean ");
-	}
+    public void draw() {
+        // TODO Auto-generated method stub
+        System.out.println("This is the default bean ");
+    }
 
 }

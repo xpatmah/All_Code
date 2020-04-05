@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="eureka-tollrate-service" />
+        <module name="eureka-fastpass-service" />
+        <module name="eureka-tollrate-billboard" />
+        <module name="spring-eureka-server" />
+        <module name="eureka-fastpass-console" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="eureka-fastpass-console" target="1.8" />
+      <module name="eureka-fastpass-service" target="1.8" />
+      <module name="eureka-tollrate-billboard" target="1.8" />
+      <module name="eureka-tollrate-service" target="1.8" />
+      <module name="spring-eureka-server" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="eureka-fastpass-console" options="-parameters" />
+      <module name="eureka-fastpass-service" options="-parameters" />
+      <module name="eureka-tollrate-billboard" options="-parameters" />
+      <module name="eureka-tollrate-service" options="-parameters" />
+      <module name="spring-eureka-server" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -13,21 +13,21 @@ import spring.state.machine.statemachinedomain.States;
 
 //@Configuration
 //@EnableStateMachine
-public class TurnstileStateMachineConfiguration extends EnumStateMachineConfigurerAdapter<States, Events>{
-	
-	@Override
-	public void configure(StateMachineConfigurationConfigurer<States, Events> config) throws Exception {
-		config.
-			withConfiguration().
-				autoStartup(true)
-				.listener(new OrderStateMachineListener());
-	}
-	
-	@Override
+public class TurnstileStateMachineConfiguration extends EnumStateMachineConfigurerAdapter<States, Events> {
+
+    @Override
+    public void configure(StateMachineConfigurationConfigurer<States, Events> config) throws Exception {
+        config.
+                withConfiguration().
+                autoStartup(true)
+                .listener(new OrderStateMachineListener());
+    }
+
+    @Override
     public void configure(StateMachineStateConfigurer<States, Events> states)
             throws Exception {
         states
-            .withStates()
+                .withStates()
                 .initial(States.LOCKED)
                 .state(States.UNLOCKED);
     }
@@ -36,12 +36,12 @@ public class TurnstileStateMachineConfiguration extends EnumStateMachineConfigur
     public void configure(StateMachineTransitionConfigurer<States, Events> transitions)
             throws Exception {
         transitions
-            .withExternal()
+                .withExternal()
                 .source(States.LOCKED)
                 .target(States.UNLOCKED)
                 .event(Events.COIN)
                 .and()
-            .withExternal()
+                .withExternal()
                 .source(States.UNLOCKED)
                 .target(States.LOCKED)
                 .event(Events.PUSH);

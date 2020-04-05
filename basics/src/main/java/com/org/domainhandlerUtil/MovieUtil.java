@@ -3,8 +3,8 @@ package com.org.domainhandlerUtil;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.org.domain.first.Actor;
-import com.org.domain.first.Movie;
+import com.org.domain.collection.Actor;
+import com.org.domain.collection.Movie;
 
 public class MovieUtil {
 	public static List<Movie> createMovies() {

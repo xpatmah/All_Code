@@ -5,7 +5,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import com.org.domain.first.Trade;
+import com.org.domain.collection.Trade;
 import com.org.domainhandlerUtil.TradeUtil;
 
 public class ReduceUsage {

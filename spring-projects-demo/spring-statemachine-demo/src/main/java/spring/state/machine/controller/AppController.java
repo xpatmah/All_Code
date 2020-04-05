@@ -16,33 +16,33 @@ import spring.state.machine.statemachinedomain.States;
 @RestController
 public class AppController {
 
-	/*
-	 * @Autowired private StateMachine<MStates, MEvents> stateMachine;
-	 */
-	
-	@Autowired
-	private StateMachine<States, Events> stateMachine;
-	
-	@RequestMapping(value="/test" , method=RequestMethod.GET)
-	public String getThanksMessage() {
-		
-		//stateMachine.addStateListener(new StateMachineEventListener());
-		
-		stateMachine.addStateListener(new OrderStateMachineListener());
-		stateMachine.start();
-		
-		stateMachine.sendEvent(Events.E1);
-		try {
-		
-			Thread.sleep(10000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		stateMachine.sendEvent(Events.E2);
-		//stateMachine.sendEvent(Events.COIN);
-		
-		return "Thanks User";
-	}
-	
-	
+    /*
+     * @Autowired private StateMachine<MStates, MEvents> stateMachine;
+     */
+
+    @Autowired
+    private StateMachine<States, Events> stateMachine;
+
+    @RequestMapping(value = "/test", method = RequestMethod.GET)
+    public String getThanksMessage() {
+
+        //stateMachine.addStateListener(new StateMachineEventListener());
+
+        stateMachine.addStateListener(new OrderStateMachineListener());
+        stateMachine.start();
+
+        stateMachine.sendEvent(Events.E1);
+        try {
+
+            Thread.sleep(10000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        stateMachine.sendEvent(Events.E2);
+        //stateMachine.sendEvent(Events.COIN);
+
+        return "Thanks User";
+    }
+
+
 }

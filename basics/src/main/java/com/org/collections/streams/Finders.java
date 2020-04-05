@@ -4,7 +4,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
 
-import com.org.domain.first.Trade;
+import com.org.domain.collection.Trade;
 import com.org.domainhandlerUtil.TradeUtil;
 
 public class Finders {

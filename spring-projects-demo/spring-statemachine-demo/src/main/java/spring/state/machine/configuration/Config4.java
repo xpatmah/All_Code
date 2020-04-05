@@ -19,26 +19,26 @@ import spring.state.machine.statemachinedomain.States;
 public class Config4
         extends EnumStateMachineConfigurerAdapter<States, Events> {
 
-	 @Override
-	    public void configure(StateMachineStateConfigurer<States, Events> states)
-	            throws Exception {
-	        states
-	            .withStates()
-	                .initial(States.S1)
-	                .end(States.SF)
-	                .states(EnumSet.allOf(States.class));
-	    }
-	
+    @Override
+    public void configure(StateMachineStateConfigurer<States, Events> states)
+            throws Exception {
+        states
+                .withStates()
+                .initial(States.S1)
+                .end(States.SF)
+                .states(EnumSet.allOf(States.class));
+    }
+
     @Override
     public void configure(StateMachineTransitionConfigurer<States, Events> transitions)
             throws Exception {
         transitions
-            .withExternal()
+                .withExternal()
                 .source(States.S1).target(States.S2)
                 .event(Events.E1)
                 .guard(guard())
                 .and()
-            .withExternal()
+                .withExternal()
                 .source(States.S2).target(States.S3)
                 .event(Events.E2)
                 .guardExpression("true");

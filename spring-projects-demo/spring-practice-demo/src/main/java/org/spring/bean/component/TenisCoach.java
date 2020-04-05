@@ -11,49 +11,49 @@ import org.spring.interfaces.Coach;
 import org.spring.interfaces.FortuneService;
 
 @Component("tenissCoach")
-public class TenisCoach implements Coach{
+public class TenisCoach implements Coach {
 
-	/*@Autowired
-	FortuneService happyFortuneService;
-	@Autowired
-	FortuneService sadFortuneService;*/
-	@Autowired
-	@Qualifier("sadFortuneService")
-	FortuneService fortuneService;
-	
-	public FortuneService getSadFortuneService() {
-		return fortuneService;
-	}
+    /*@Autowired
+    FortuneService happyFortuneService;
+    @Autowired
+    FortuneService sadFortuneService;*/
+    @Autowired
+    @Qualifier("sadFortuneService")
+    FortuneService fortuneService;
 
-	public void setSadFortuneService(FortuneService sadFortuneService) {
-		this.fortuneService = sadFortuneService;
-	}
+    public FortuneService getSadFortuneService() {
+        return fortuneService;
+    }
+
+    public void setSadFortuneService(FortuneService sadFortuneService) {
+        this.fortuneService = sadFortuneService;
+    }
 
     @PostConstruct
-	public void intMehtod() {
-		System.out.println("This is the initialize method");
-	}
+    public void intMehtod() {
+        System.out.println("This is the initialize method");
+    }
 
     @PreDestroy
-	public void NotintMehtod() {
-		System.out.println("This is the Destroy method");
-	}
+    public void NotintMehtod() {
+        System.out.println("This is the Destroy method");
+    }
 	
 /*	@Autowired
 	public TenisCoach(FortuneService fortuneServer) {
 		// TODO Auto-generated constructor stub
 		this.fortuneServer = fortuneServer;
 	}
-*/	
-	
-	public String getDailyWorkOut() {
-		// TODO Auto-generated method stub
-		return "Practice daily backhand";
-	}
+*/
 
-	public String getTodayFortune() {
-		// TODO Auto-generated method stub
-		return fortuneService.getLuckyDay();
-	}
+    public String getDailyWorkOut() {
+        // TODO Auto-generated method stub
+        return "Practice daily backhand";
+    }
+
+    public String getTodayFortune() {
+        // TODO Auto-generated method stub
+        return fortuneService.getLuckyDay();
+    }
 
 } 

@@ -1,0 +1,5 @@
+
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨Õ÷ùûÿÿÿÿ8ÙÅ“Û‘.
+Ysquid:S1481";Remove this unused "printAllThePermutation" local variable.(à¬‘È8ÜÚÉÚ‘.
+hsquid:S1854"JRemove this useless assignment to local variable "printAllThePermutation".(à¬‘È8ÜÚÉÚ‘.

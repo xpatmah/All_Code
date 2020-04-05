@@ -9,14 +9,14 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RestControllerAPI {
 
-	@GetMapping("/books")
-	public List<String> getAllBooks(){
-		List<String> newList = new ArrayList<>();
-		newList.add("ABCD");
-		newList.add("BCDE");
-		newList.add("CDEF");
-		newList.add("DEFG");
-		return newList;
-	}
-	
+    @GetMapping("/books")
+    public List<String> getAllBooks() {
+        List<String> newList = new ArrayList<>();
+        newList.add("ABCD");
+        newList.add("BCDE");
+        newList.add("CDEF");
+        newList.add("DEFG");
+        return newList;
+    }
+
 }

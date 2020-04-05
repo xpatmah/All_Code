@@ -2,54 +2,53 @@ package com.springstarterjdbc.jdbc.entity;
 
 public class Person {
 
-	private int id;
-	
-	private String name;
-	
-	private String location;
-	
-	private String birthDate;
+    private int id;
 
-	public Person(int id, String name, String location, String birthDate) {
-		super();
-		this.id = id;
-		this.name = name;
-		this.location = location;
-		this.birthDate = birthDate;
-	}
+    private String name;
 
-	public int getId() {
-		return id;
-	}
+    private String location;
 
-	public void setId(int id) {
-		this.id = id;
-	}
+    private String birthDate;
 
-	public String getName() {
-		return name;
-	}
+    public Person(int id, String name, String location, String birthDate) {
+        super();
+        this.id = id;
+        this.name = name;
+        this.location = location;
+        this.birthDate = birthDate;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public int getId() {
+        return id;
+    }
 
-	public String getLocation() {
-		return location;
-	}
+    public void setId(int id) {
+        this.id = id;
+    }
 
-	public void setLocation(String location) {
-		this.location = location;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public String getbirthDate() {
-		return birthDate;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setbirthDate(String birthDate) {
-		this.birthDate = birthDate;
-	}
-	
-	
-	
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getbirthDate() {
+        return birthDate;
+    }
+
+    public void setbirthDate(String birthDate) {
+        this.birthDate = birthDate;
+    }
+
+
 }

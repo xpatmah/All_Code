@@ -10,32 +10,32 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="DEVICE")
+@Table(name = "DEVICE")
 public class Device implements Serializable {
 
-	@Id
-	@Column(name="IP_ADDRESS")
-	private String ipAddress;
-	
-	@Column(name="DESCRIPTION")
-	private String description;
-	
-	
-	public String getIpAddress() {
-		return ipAddress;
-	}
+    @Id
+    @Column(name = "IP_ADDRESS")
+    private String ipAddress;
 
-	public void setIpAddress(String ipAddress) {
-		this.ipAddress = ipAddress;
-	}
+    @Column(name = "DESCRIPTION")
+    private String description;
 
-	public String getDescription() {
-		return description;
-	}
 
-	public void setDescription(String description) {
-		this.description = description;
-	}
+    public String getIpAddress() {
+        return ipAddress;
+    }
 
-	
+    public void setIpAddress(String ipAddress) {
+        this.ipAddress = ipAddress;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+
 }

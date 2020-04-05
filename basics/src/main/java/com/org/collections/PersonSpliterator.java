@@ -1,6 +1,6 @@
 package com.org.collections;
 
-import com.org.domain.first.Person;
+import com.org.domain.collection.Person;
 
 import java.util.Spliterator;
 import java.util.function.Consumer;

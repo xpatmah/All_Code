@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutomaticModuleUnloader">
+    <loaded-modules>
+      <module name="aspectj" />
+      <module name="dynamicprogramming" />
+    </loaded-modules>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28ea1331-2f39-4486-b8c6-ad966edad69f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/All_Code.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-projects-demo/spring-statemachine-demo/spring-statemachine-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mvcappSpring_war.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/mvcappSpring_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_3_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_2_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/basics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/basics.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/basics/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/ComparatorUse.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/ComparatorUse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/CreatingSpliterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/CreatingSpliterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/GenericTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/GenericTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/ObjectComparison.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/ObjectComparison.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/PersonSpliterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/PersonSpliterator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/PriorityQueueUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/PriorityQueueUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/streams/CustomObjectSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/streams/CustomObjectSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/streams/Finders.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/streams/Finders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/streams/IntegerPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/streams/IntegerPredicate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/streams/Mapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/streams/Mapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/streams/PredicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/streams/PredicateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/streams/ReduceUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/streams/ReduceUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/corejava/first/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/corejava/first/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Actor.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Actor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Audi.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Audi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Cars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/ds/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Fruit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Honda.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Honda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Mercedes.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Mercedes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/MoterCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/MoterCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/ds/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Suzuki.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Suzuki.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Teacher.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Teacher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Trade.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Trade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Vechicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/collection/Vechicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/first/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domain/ds/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domainhandlerUtil/EmployeeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domainhandlerUtil/EmployeeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domainhandlerUtil/MovieUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domainhandlerUtil/MovieUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/domainhandlerUtil/TradeUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/domainhandlerUtil/TradeUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/ChoiceofArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/ChoiceofArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/CoinChangeProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/CoinChangeProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/AllPossibleSubSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/AllPossibleSubSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/CircularLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/CuttingRoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/CuttingRoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/EggerLazyNess.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/EggerLazyNess.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/Expression.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/GoblinDistroyer.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/GoblinDistroyer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/LinkedListStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/LinkedListStack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/algo/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/dijkstra/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/algo/DijkstraAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/dijkstra/DijkstraAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/algo/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/dijkstra/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/algo/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/dijkstra/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/bellmanford/Algo.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/bellmanford/Algo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/bellmanford/BellmanFordAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/bellmanford/BellmanFordAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/bellmanford/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/bellmanford/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/bellmanford/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/bellmanford/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/dag/AcyclicShortestPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/dag/AcyclicShortestPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/dag/DAGAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/dag/DAGAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/dag/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/dag/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/dag/TopologicalSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/dag/TopologicalSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/dag/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/dag/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/forex/Edge.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/forex/Edge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/forex/Vertex.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/forex/Vertex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/AllSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/AllSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/BinomialCoefficient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/CoinChangeDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/CoinChangeDynamic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/CoinChangeRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/CoinChangeRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/CoinChangeSpaceOptimization.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/CoinChangeSpaceOptimization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/CuttingRod.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/CuttingRod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/CuttingRodDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/CuttingRodDynamic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/Febo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/FeboDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/FeboDynamic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/FeboMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/FeboMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/GoldMineProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/GoldMineProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/LCSOverlapingProb.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LCSOverlapingProb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/LRSonNormal.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LRSonNormal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/LargestSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LargestSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/LinkedListReversal.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LinkedListReversal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/MergeTwoLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/MergeTwoLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/PrintNoUptoN.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/PrintNoUptoN.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/SingleLinkedListGeneration.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/SingleLinkedListGeneration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/SortLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/SortLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/SubSetSumDynamic.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/SubSetSumDynamic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/SubSetSumProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/SubSetSumProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/TowerOfHanoi.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/TowerOfHanoi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/TraverseMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/TraverseMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/UglyNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/UglyNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/arrays/MissingNoInArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/arrays/MissingNoInArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/arrays/OneDuplicateOnly.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/arrays/OneDuplicateOnly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/ALLCONSTTYPE.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/ALLCONSTTYPE.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/AVL.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/AVL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/BinarySearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/BinarySearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/BinarySearchI.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/BinarySearchI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/BinarySearchTree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/BubbleSorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/BubbleSorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/CreateBinaryTreeWithPreOrderAndInOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/CreateBinaryTreeWithPreOrderAndInOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/DataStructureHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/DataStructureHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/DeepestNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/DeepestNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/GenericTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/GenericTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/IGenericTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/IGenericTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/NaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/NaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/RedBlackTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/RedBlackTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/SortingAlgo.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/SortingAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/bst/advance/BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/bst/advance/BST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/bst/advance/BSTmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/bst/advance/BSTmain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/prog/AStringPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/AStringPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/prog/AdditiveSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/AdditiveSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/prog/ArrayFractionPercentage.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/ArrayFractionPercentage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/prog/BigIntegerSolution.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/BigIntegerSolution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/prog/DiagonalSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/DiagonalSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/prog/GreatestNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/GreatestNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/prog/KStringPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/KStringPattern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/prog/MinimumPairInArraySol.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/MinimumPairInArraySol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/prog/MyParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/MyParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/prog/ReversingStackWithPushPop.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/ReversingStackWithPushPop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/prog/SolutionWithLong.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/SolutionWithLong.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/prog/SortIdentificationUsingRecursion.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/SortIdentificationUsingRecursion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/BinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/tree/IBinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/IBinarySearchTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/tree/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tree/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/tries/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tries/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/tries/Trie.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tries/Trie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/ds/tries/TriesAppClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tries/TriesAppClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/AllSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/AllSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/BalanceLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/BalanceLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/BinomialCoefficient.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/BinomialCoefficient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/ClothExposedToSun.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/ClothExposedToSun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/CoinChangeProblem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/EmptyProgram.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/EmptyProgram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/Febo.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/Febo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/FindNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/FindNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/GFG.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/GFG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/JavaCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/JavaCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/LRUCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LRUCache.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/LargestSumContiguousSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LargestSumContiguousSubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/LargestSumContiguousSubArray2.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LargestSumContiguousSubArray2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/LongestCommonSubSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LongestCommonSubSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/LongestCommonSubSequence2.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LongestCommonSubSequence2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/LongestIncreasingSubsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/LongestRepeatitiveSubSequesce.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LongestRepeatitiveSubSequesce.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/LongestRepetativeSequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LongestRepetativeSequence.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/LongestValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/LongestValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/MaxSuzeSubSquareSubMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/MaxSuzeSubSquareSubMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/MaxdiffrenceIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/MaxdiffrenceIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/MaximumSizedSubMatrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/MaximumSizedSubMatrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/MinCostPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/MinCostPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/NutsAndBoltsMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/NutsAndBoltsMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/RotationArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/RotationArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/TwoSubsetofEqualSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/TwoSubsetofEqualSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/UglyNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/UglyNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/abc.txt" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/abc.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/interview/HDS1.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/HDS1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/interview/HSD2.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/dp/first/HSD2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/dynamic/java8/MethodReferencing.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/collections/MethodReferencing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/mathematics/AbsoluteNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/mathematics/AbsoluteNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/mathematics/CelsiusToFahrenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/mathematics/CelsiusToFahrenheit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/mathematics/ExactlyThreeDivisors.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/mathematics/ExactlyThreeDivisors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/mathematics/Factorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/mathematics/Factorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/mathematics/GP.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/mathematics/GP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/mathematics/LongFactorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/mathematics/LongFactorial.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/mathematics/MM.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/mathematics/MM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/mathematics/NoOfDigitIterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/mathematics/NoOfDigitIterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/mathematics/NoOfDigitRecursive.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/mathematics/NoOfDigitRecursive.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/mathematics/Quadratic.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/mathematics/Quadratic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/recursion/AllStringParttern.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/recursion/AllStringParttern.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/recursion/JosephusProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/recursion/JosephusProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/recursion/MaxNoofPices.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/recursion/MaxNoofPices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/recursion/PrintDesendingAsending.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/recursion/PrintDesendingAsending.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/recursion/SumOfDigitRecursivly.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/recursion/SumOfDigitRecursivly.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/sorting/BucketSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/sorting/BucketSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/sorting/CountingSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/sorting/CountingSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/sorting/DulePivotQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/sorting/DulePivotQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/sorting/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/sorting/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/sorting/InPlaceQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/sorting/InPlaceQuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/sorting/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/sorting/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/sorting/Quick3waySorting.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/sorting/Quick3waySorting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/sorting/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/sorting/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/programming/practice/sorting/RedixSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/sorting/RedixSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/ds/first/tour/KnightTourMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/main/java/com/org/problemsolving/graph/first/tour/KnightTourMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basics/src/test/java/com/org/junit/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/basics/src/test/java/com/org/junit/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WHYJIL9WHMsbtYtPmDGhi5ZRxh" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring-boot-demo/src/main/java/com" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/basics" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.org" />
+      <recent name="com.org.java" />
+      <recent name="com.org.java.ds" />
+      <recent name="ds.programming.practice" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\clean_code\All_Code\spring-boot-server" />
+      <recent name="D:\Code\clean_code\All_Code\basics\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Code\clean_code\All_Code\basics\src\main\java\com\org\problemsolving\dp\first" />
+      <recent name="D:\Code\clean_code\All_Code\spring-projects-demo\spring-practice-demo\src\main\resources" />
+      <recent name="D:\Code\clean_code\All_Code\spring-projects-demo\spring-practice-demo\src\main\java" />
+      <recent name="D:\Code\clean_code\All_Code\spring-projects-demo\spring-practice-demo\src\main\java\org\spring" />
+      <recent name="D:\Code\clean_code\All_Code\spring-projects-demo\spring-practice-demo\src\main" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SwimJavaConfigApp">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spring.App" />
+      <module name="spring-practice-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SwimJavaConfigApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.spring.SwimJavaConfigApp" />
+      <module name="spring-practice-demo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.spring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="aspectj" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.demo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.demo.DemoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMqDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="rabbit-mq-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.com.rabbitmq.RabbitMqDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringBootDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-boot-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sprinboot.starter.project.springbootdemo.SpringBootDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Application.SwimJavaConfigApp" />
+      <item itemvalue="Spring Boot.DemoApplication" />
+      <item itemvalue="Spring Boot.RabbitMqDemoApplication" />
+      <item itemvalue="Spring Boot.SpringBootDemoApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SwimJavaConfigApp" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Spring Boot.DemoApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Spring Boot" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28ea1331-2f39-4486-b8c6-ad966edad69f" name="Default Changelist" comment="" />
+      <created>1578807914202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578807914202</updated>
+      <workItem from="1578807919765" duration="428000" />
+      <workItem from="1578808411161" duration="1227000" />
+      <workItem from="1578809662896" duration="1637000" />
+      <workItem from="1579072239975" duration="2725000" />
+      <workItem from="1579075993577" duration="2314000" />
+      <workItem from="1579078681493" duration="7158000" />
+      <workItem from="1579086836116" duration="969000" />
+      <workItem from="1579087831580" duration="340000" />
+      <workItem from="1579088272029" duration="7520000" />
+      <workItem from="1585500992919" duration="82000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="4" key="#Notifications" timestamp="1578808622488">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="233" y="4" key="#Notifications/0.0.1280.688@0.0.1280.688" timestamp="1578808622488" />
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1579093945875">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.688@0.0.1280.688" timestamp="1579093945875" />
+    <state x="446" y="55" key="#com.intellij.ide.util.MemberChooser" timestamp="1578808915078">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="446" y="55" key="#com.intellij.ide.util.MemberChooser/0.0.1280.688@0.0.1280.688" timestamp="1578808915078" />
+    <state x="202" y="262" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1579096639595">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="202" y="262" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.688@0.0.1280.688" timestamp="1579096639595" />
+    <state x="376" y="192" width="596" height="313" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1579084363123">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="376" y="192" width="596" height="313" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.688@0.0.1280.688" timestamp="1579084363123" />
+    <state x="376" y="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1579084766658">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="376" y="216" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1280.688@0.0.1280.688" timestamp="1579084766658" />
+    <state x="339" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579086041185">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="339" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.688@0.0.1280.688" timestamp="1579086041185" />
+    <state x="309" y="37" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1579085905138">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="309" y="37" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1280.688@0.0.1280.688" timestamp="1579085905138" />
+    <state x="505" y="112" key="FileChooserDialogImpl" timestamp="1585501062316">
+      <screen x="0" y="0" width="1536" height="826" />
+    </state>
+    <state x="421" y="93" key="FileChooserDialogImpl/0.0.1280.688@0.0.1280.688" timestamp="1579097285346" />
+    <state x="505" y="112" key="FileChooserDialogImpl/0.0.1536.826@0.0.1536.826" timestamp="1585501062316" />
+    <state width="1225" height="80" key="GridCell.Tab.0.bottom" timestamp="1579097362431">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1225" height="80" key="GridCell.Tab.0.bottom/0.0.1280.688@0.0.1280.688" timestamp="1579097362431" />
+    <state width="1225" height="80" key="GridCell.Tab.0.center" timestamp="1579097362430">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1225" height="80" key="GridCell.Tab.0.center/0.0.1280.688@0.0.1280.688" timestamp="1579097362430" />
+    <state width="1225" height="80" key="GridCell.Tab.0.left" timestamp="1579097362429">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1225" height="80" key="GridCell.Tab.0.left/0.0.1280.688@0.0.1280.688" timestamp="1579097362429" />
+    <state width="1225" height="80" key="GridCell.Tab.0.right" timestamp="1579097362430">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1225" height="80" key="GridCell.Tab.0.right/0.0.1280.688@0.0.1280.688" timestamp="1579097362430" />
+    <state width="1225" height="80" key="GridCell.Tab.1.bottom" timestamp="1579097362432">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1225" height="80" key="GridCell.Tab.1.bottom/0.0.1280.688@0.0.1280.688" timestamp="1579097362432" />
+    <state width="1225" height="80" key="GridCell.Tab.1.center" timestamp="1579097362431">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1225" height="80" key="GridCell.Tab.1.center/0.0.1280.688@0.0.1280.688" timestamp="1579097362431" />
+    <state width="1225" height="80" key="GridCell.Tab.1.left" timestamp="1579097362431">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1225" height="80" key="GridCell.Tab.1.left/0.0.1280.688@0.0.1280.688" timestamp="1579097362431" />
+    <state width="1225" height="80" key="GridCell.Tab.1.right" timestamp="1579097362432">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1225" height="80" key="GridCell.Tab.1.right/0.0.1280.688@0.0.1280.688" timestamp="1579097362432" />
+    <state width="1225" height="478" key="GridCell.Tab.2.bottom" timestamp="1579078320308">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1225" height="478" key="GridCell.Tab.2.bottom/0.0.1280.688@0.0.1280.688" timestamp="1579078320308" />
+    <state width="1225" height="478" key="GridCell.Tab.2.center" timestamp="1579078320308">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1225" height="478" key="GridCell.Tab.2.center/0.0.1280.688@0.0.1280.688" timestamp="1579078320308" />
+    <state width="1225" height="478" key="GridCell.Tab.2.left" timestamp="1579078320308">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1225" height="478" key="GridCell.Tab.2.left/0.0.1280.688@0.0.1280.688" timestamp="1579078320308" />
+    <state width="1225" height="478" key="GridCell.Tab.2.right" timestamp="1579078320308">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state width="1225" height="478" key="GridCell.Tab.2.right/0.0.1280.688@0.0.1280.688" timestamp="1579078320308" />
+    <state x="117" y="0" key="Maven.ArtifactSearchDialog" timestamp="1579096439383">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="117" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.688@0.0.1280.688" timestamp="1579096439383" />
+    <state x="415" y="0" key="RollbackChangesDialog" timestamp="1579081356666">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="415" y="0" key="RollbackChangesDialog/0.0.1280.688@0.0.1280.688" timestamp="1579081356666" />
+    <state x="0" y="0" key="SettingsEditor" timestamp="1579093193193">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="0" y="0" key="SettingsEditor/0.0.1280.688@0.0.1280.688" timestamp="1579093193193" />
+    <state x="430" y="114" key="chooseDestDirectoryDialog" timestamp="1579077898588">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="430" y="114" key="chooseDestDirectoryDialog/0.0.1280.688@0.0.1280.688" timestamp="1579077898588" />
+    <state x="337" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1579088272536">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="337" y="170" key="com.intellij.ide.util.TipDialog/0.0.1280.688@0.0.1280.688" timestamp="1579088272536" />
+    <state x="0" y="0" width="744" height="688" key="find.popup" timestamp="1579093779788">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="0" y="0" width="744" height="688" key="find.popup/0.0.1280.688@0.0.1280.688" timestamp="1579093779788" />
+    <state x="0" y="0" key="new project wizard" timestamp="1579088509961">
+      <screen x="0" y="0" width="1280" height="688" />
+    </state>
+    <state x="0" y="0" key="new project wizard/0.0.1280.688@0.0.1280.688" timestamp="1579088509961" />
+  </component>
+</project>
